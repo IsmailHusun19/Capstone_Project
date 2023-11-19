@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
     navbarToggler.addEventListener('click', function() {
       navbar.classList.toggle('active');
+      navbarToggler.classList.toggle('fa-bars-staggered');
     });
 
     document.addEventListener('click', function(event) {
@@ -12,6 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
       if (!isClickInsideNavbar && !isNavbarToggler) {
         navbar.classList.remove('active');
+        navbarToggler.classList.remove('fa-bars-staggered');
       }
     });
 });

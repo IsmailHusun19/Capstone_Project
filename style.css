@@ -149,8 +149,8 @@ nav ul li:nth-child(7) a:hover {
         width: 100%;
         max-width: 1280px;
         flex-direction: column;
-        top: 75px;
-        background-color: rgba(0, 0, 0, 0.9);
+        top: 73px;
+        background-color: white;
         padding: 30px 0;
         transform: scaleY(0);
         transform-origin: top;
@@ -166,7 +166,7 @@ nav ul li:nth-child(7) a:hover {
     }
 
     nav ul li a {
-        border-bottom: 1px solid whitesmoke;
+        border-bottom: 1px solid #FF5857;
         width: 100%;
         display: block;
         height: 44px;
