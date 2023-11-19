@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),  url(/aset//hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+.container-nav {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+}
+
+nav {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.image-logo img {
+    width: 200px;
+    margin-left: -15px;
+}
+
+i.fa-bars {
+    display: none;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    font-size: 17px;
+    text-decoration: none;
+    color: #FF5857;
+    font-weight: 600;
+    
+}
+
+nav ul li:nth-child(7) a{
+    display: block;
+    width: 100px;
+    padding: 7px 0;
+    text-align: center;
+    border-radius: 20px;
+    color: whitesmoke;
+    background-color: #FF5857;
+}
+
+nav ul li a:hover {
+    color: #ba3939;
+}
+
+nav ul li:nth-child(7) a:hover {
+    background-color: #ba3939;
+    color: antiquewhite;
+}
+
+.box {
+    margin-top: 70px;
+    width: 95%;
+    max-width: 1280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bolder;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.box h1:nth-child(1){
+    margin: 10px;
+    font-size: 60px;
+}
+
+.box h1:nth-child(2){
+    font-size: 30px;
+    font-family: 'Merienda', cursive;
+}
+
+.box a {
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: #FF5857;
+    width: 200px;
+    padding: 12px 0;
+    display: block;
+    text-decoration: none;
+    margin: 50px auto;
+    border-radius: 20px;
+    font-size: medium;
+}
+
+.box a:hover {
+    background-color: #ff6d6d;
+}
+.box a i {
+    margin: 0 5px;
+}
+
+@media screen and (max-width: 900px){
+    .image-logo img {
+        margin-left: 2px;
+    }
+    i.fa-bars {
+        display: block;
+        margin-right: 20px;
+        font-size: 30px;
+    }
+    nav {
+        width: 100%;
+    }
+    nav ul {
+        position: absolute;
+        width: 100%;
+        max-width: 1280px;
+        flex-direction: column;
+        top: 75px;
+        background-color: rgba(0, 0, 0, 0.9);
+        padding: 30px 0;
+        transform: scaleY(0);
+        transform-origin: top;
+        transition: all ease-in-out .5s;
+    }
+
+    nav ul.active {
+        transform: scaleY(1);
+    }
+
+    nav ul li {
+        width: 95%;
+    }
+
+    nav ul li a {
+        border-bottom: 1px solid whitesmoke;
+        width: 100%;
+        display: block;
+        height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+    }
+
+    nav ul li:nth-child(7), nav ul li:nth-child(7) a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .box h1:nth-child(1){
+        font-size: 40px;
+    }
+    
+    .box h1:nth-child(2){
+        font-size: 20px;
+    }
+}
+
+
+article {
+    width: 95%;
+    margin: 50px auto;
+    max-width: 1280px;
+}
+
+article h1.jadwal {
+    text-align: center;
+    font-size: 25px;
+    color: #FF5857;
+}
+
+article .garis {
+    margin: 5px auto;
+    width: 120px;
+    height: 1.5px;
+    background-color: #FF5857;
+    margin-bottom: 30px;
+}
+
+.box-kegiatan {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    /* border: 1px solid red; */
+}
+
+.item-kegiatan {
+    width: 290px;
+    background-color: rgb(244, 244, 244);
+    box-shadow: 0px 0px 2px black;
+    border-radius: 2px;
+    margin: 0 auto;
+}
+
+.box-kegiatan .image-kegiatan {
+    width: 100%;
+}
+
+.box-kegiatan .image-kegiatan img {
+    width: 100%;
+}
+
+.keteragan-kegiatan {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    color: #2F2F2F;
+}
+
+.keteragan-kegiatan .tanggal-kegiatan h3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #6EFDFF;
+    padding: 5px;
+    height: 30px;
+}
+
+.box-judul-lokasi-waktu {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.keteragan-kegiatan .judul-kegiatan h2 {
+    cursor: pointer;
+    font-size: 17px;
+    display: flex;
+    margin: 3px 0;
+    align-items: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.keteragan-kegiatan .judul-kegiatan h2:hover {
+    text-decoration: underline;
+}
+
+.lokasi-waktu-kegiatan .lokasi, .lokasi-waktu-kegiatan .pukul  {
+    display: flex;
+    margin: 5px 0;
+}
+
+.lokasiKegiatan, .pukulKegiatan{
+    font-weight: 500;
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lokasiKegiatan span, .pukulKegiatan span {
+    margin: 0 3px;
+
+} 
+
+.lokasi-waktu-kegiatan .lokasi p:nth-child(2), .lokasi-waktu-kegiatan .pukul p:nth-child(2){
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    width: 100%;
+}
+
+.item-kegiatan .btn-jadwalkan {
+    padding: 0 5px 10px 5px;
+}
+
+.item-kegiatan .btn-jadwalkan button {
+    width: 100%;
+    height: 35px;
+    padding: 5px;
+    color: whitesmoke;
+    background-color: #FF5857;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.item-kegiatan .btn-jadwalkan button:hover {
+    background-color: #ff6d6d;
+}
+
+@media screen and (max-width: 1270px){
+    .box-kegiatan {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .item-kegiatan {
+        width: 95%;
+    }
+    
+}
+
+@media screen and (max-width: 1015px){
+    .box-kegiatan {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .item-kegiatan {
+        width: 95%;
+    }   
+}
+
+@media screen and (max-width: 640px){
+    .box-kegiatan {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+    }
+    .item-kegiatan {
+        width: 90%;
+    } 
+    
+}
+
+.btnSelengkapnya {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btnSelengkapnya button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 18px;
+    color: #2F2F2F;
+}
+
+.btnSelengkapnya button:hover {
+    color: #505050;
+}
