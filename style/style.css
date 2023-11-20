@@ -145,7 +145,7 @@ article h1.jadwal {
     color: #FF5857;
 }
 
-article .garis {
+.garis {
     margin: 5px auto;
     width: 120px;
     height: 1.5px;
@@ -281,4 +281,64 @@ article .garis {
 
 .btnSelengkapnya button:hover {
     color: #505050;
+}
+
+
+.container-galeri {
+    width: 100%;
+    padding-top: 30px;
+    margin: 50px auto;
+    max-width: 1280px;
+    background-color: #2E2E2E;
+    color: whitesmoke;
+}
+
+.container-galeri h1.judulGaleri {
+    text-align: center;
+    font-size: 25px;
+}
+
+.container-galeri p {
+    text-align: center;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.container-galeri .garis {
+    background-color: white;
+}
+
+.box-galeri {
+    width: 95%;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.box-galeri .galeri {
+    width: 100%;
+    cursor: pointer;
+}
+
+.box-galeri .galeri:hover {
+    transform: scale(1.02);
+}
+
+.box-galeri .galeri img {
+    width: 100%;
+}
+
+.tentang-kami {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tentang-kami p {
+    font-family: 'Bad Script', cursive;
+    font-weight: 400;
+    font-size: large;
 }

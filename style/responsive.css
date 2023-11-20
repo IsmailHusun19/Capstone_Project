@@ -98,5 +98,24 @@
 }
 
 
+@media screen and (max-width: 1250px) {
+    .box-galeri {
+        grid-template-columns: repeat(4, 1fr);
+    } 
+}
+
+@media screen and (max-width: 800px) {
+    .box-galeri {
+        grid-template-columns: repeat(3, 1fr);
+    } 
+}
+
+@media screen and (max-width: 600px) {
+    .box-galeri {
+        grid-template-columns: repeat(2, 1fr);
+    } 
+}
+
+
 
 
