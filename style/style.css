@@ -70,23 +70,22 @@ nav ul li a {
     
 }
 
-nav ul li:nth-child(7) a{
-    display: block;
+nav ul .login a {
     width: 100px;
-    padding: 7px 0;
-    text-align: center;
+    padding: 7px 25px;
     border-radius: 20px;
     color: whitesmoke;
     background-color: #FF5857;
 }
+nav ul .login a:hover {
+    background-color: #ba3939;
+    color: antiquewhite;
+    transition: all ease 0.5s;
+}
 
 nav ul li a:hover {
     color: #ba3939;
-}
-
-nav ul li:nth-child(7) a:hover {
-    background-color: #ba3939;
-    color: antiquewhite;
+    transition: all ease 0.5s;
 }
 
 .box {
@@ -236,6 +235,8 @@ article h1.jadwal {
 }
 
 .lokasi-waktu-kegiatan .deskripsi p{
+
+.lokasi-waktu-kegiatan .lokasi p:nth-child(2), .lokasi-waktu-kegiatan .pukul p:nth-child(2){
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
@@ -286,10 +287,9 @@ article h1.jadwal {
 
 .container-galeri {
     width: 100%;
-    padding-top: 30px;
-    padding-bottom: 50px;
     margin: 50px auto;
     margin-bottom: 0;
+    padding: 40px 0;
     background-color: #2E2E2E;
     color: whitesmoke;
 }
@@ -363,6 +363,7 @@ h1.judulTentangKami {
 }
 
 
+
 footer {
     width: 100%;
     background-color: white;
@@ -395,4 +396,3 @@ footer .list-menu-footer ul li {
 footer .list-menu-footer li a {
     color: #2E2E2E;
     text-decoration: none;
-}
