@@ -216,12 +216,11 @@ article h1.jadwal {
 
 .lokasi-waktu-kegiatan .lokasi, .lokasi-waktu-kegiatan .pukul, .lokasi-waktu-kegiatan .tanggal  {
     display: flex;
+    justify-content: space-between;
     margin: 5px 0;
 }
 
 .tanggal p{
-    text-align: right;
-    width: 100%;
     margin: 10px 5px;
     font-weight: 500;
 }
@@ -233,8 +232,6 @@ article h1.jadwal {
     overflow: hidden;
     width: 100%;
 }
-
-.lokasi-waktu-kegiatan .deskripsi p{
 
 .lokasi-waktu-kegiatan .lokasi p:nth-child(2), .lokasi-waktu-kegiatan .pukul p:nth-child(2){
     display: -webkit-box;
@@ -266,24 +263,23 @@ article h1.jadwal {
     background-color: #ff6d6d;
 }
 
-.btnSelengkapnya {
-    text-align: center;
+.selengkapnya {
     margin-top: 30px;
 }
 
-.btnSelengkapnya button {
-    border: none;
-    outline: none;
-    background-color: transparent;
+.selengkapnya p {
+    text-align: center;
+}
+.selengkapnya p a {
+    text-decoration: none;
+    color: #2E2E2E;
     cursor: pointer;
-    font-size: 18px;
-    color: #2F2F2F;
 }
 
-.btnSelengkapnya button:hover {
-    color: #505050;
+.selengkapnya p a:hover {
+    color: #ba3939;
+    transition: all ease 0.5s;
 }
-
 
 .container-galeri {
     width: 100%;
