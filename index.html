@@ -15,24 +15,42 @@
     <link rel="stylesheet" href="./style/responsive.css">
     <!-- favicon -->
     <link rel="shortcut icon" href="aset/favicon.png" type="image/x-icon">
+    <!--  -->
+    <link rel="stylesheet" href="style/upload.css">
+    <link rel="stylesheet" href="style/login.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Home</title>
 </head>
 <body>
-    <div class="container">
+    <!-- <div class="container"> -->
         <header>
             <div class="container-nav">
-                <nav>
-                    <div class="image-logo"><img src="aset/logo.png" alt=""></div>
-                    <i class="fa-solid fa-bars"></i>
-                    <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Jadwal</a></li>
-                        <li><a href="">Kegiatan</a></li>
-                        <li><a href="">Galeri</a></li>
-                        <li><a href="">Artikel</a></li>
-                        <li><a href="">Daftar</a></li>
-                        <li class="login"><a href="login.html">Login</a></li>
-                    </ul>
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand m-0" href="#"><img src="./aset/logo.png" alt=""></a>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link m-0" href="/index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m-0" href="#">Kegiatan</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m-0" href="#">Galeri</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m-0" href="#">Artikel</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m-0" href="./daftar.html">Daftar</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m-0 login" href="./login.html">Login</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </nav>
             </div>
             <div class="box">
@@ -146,7 +164,7 @@
             </div>
             <p>&copy; 2023 copyright Pentas Seni ID</p>
         </footer>
-    </div>
+
 </body>
 <script src="./script/script.js"></script>
 </html>
