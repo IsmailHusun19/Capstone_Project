@@ -76,31 +76,6 @@ label {
     margin-bottom: 30px;
 }
 
-.input {
-    margin-bottom: 15px;
-    padding: 10px;
-    width: 100%;
-    box-sizing: border-box;
-    max-width: 100%;
-    border-radius: 25px;
-}
-
-.input-form .email .form-control {
-    background-color: #F0EDFFCC;
-    padding: 15px;
-}
-.input-form .email i {
-    font-size: 25px;
-    font-weight: bold;
-}
-.input-form .password .form-control {
-    background-color: #F0EDFFCC;
-    padding: 15px;
-}
-.input-form .password i {
-    font-size: 25px;
-    font-weight: bold;
-}
 
 a {
     display: block;
@@ -126,14 +101,6 @@ a:hover {
     display: flex;
     justify-content: space-between;
 }
-
-.input-form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-bottom: 20px;
-}
-
 
 .login-section {
     display: flex;
@@ -181,6 +148,7 @@ a:hover {
     text-decoration: none;
     color: black;
     font-weight: bold;
+    
 }
 .login .daftar a:hover {
     color: #FF5857;
@@ -264,5 +232,43 @@ a:hover {
     width: 40%;
 }
 
-
-
+.wrap-input {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    margin-bottom: 10px;
+  }
+  .input {
+    font-family: Poppins-Medium;
+    font-size: 15px;
+    color: #666666;
+  
+    display: block;
+    width: 100%;
+    background: #e6e6e6;
+    height: 50px;
+    border-radius: 10px;
+    padding: 0 30px 0 68px;
+    border: none;
+  }
+  
+  .symbol-input {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    border-radius: 25px;
+    bottom: 0;
+    left: -10px;
+    width: 100%;
+    height: 100%;
+    padding-left: 35px;
+    pointer-events: none;
+    
+  }
+  .wrap-input-password{
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    margin-bottom: 20px;
+  }
