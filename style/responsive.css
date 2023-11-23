@@ -1,29 +1,89 @@
-@media screen and (max-width: 1600px) {
+@media screen and (min-width: 1500px) {
+    .navbar ul li a {
+        font-size: 18px;
+    }
+    .box a {
+        font-size: 18px;
+        width: 250px;
+    }
+    .keteragan-kegiatan .judul-kegiatan h2 {
+        font-size: 18px;
+    }
+    .deskripsi p {
+        font-size: 16px;
+    }
+    .tanggal p{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .container-galeri p {
+        font-size: 18px;
+    }
+    footer, footer h6 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
     .box-kegiatan {
         grid-template-columns: repeat(4, 1fr);
+    }
+    .navbar ul li a {
+        font-size: 16px;
     }
 }
 
 @media screen and (max-width: 1270px){
     .box-kegiatan {
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .item-kegiatan {
-        width: 95%;
+        grid-template-columns: repeat(4, 1fr);
     }
     
 }
 
-@media screen and (max-width: 1015px){
+@media screen and (max-width: 1200px){
+    .box-kegiatan {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+@media screen and (max-width: 850px){
     .box-kegiatan {
         grid-template-columns: repeat(2, 1fr);
     }
     .item-kegiatan {
-        width: 95%;
-    }   
+        width: 100%;
+        max-width: none;
+    }
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 580px){
+    .box-kegiatan {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .item-kegiatan {
+        width: 100%;
+    }
+    .box-kegiatan .image-kegiatan img {
+        height: 350px;
+    }
+    article {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 520px){
+    article {
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 1100px){
     .image-logo img {
         margin-left: 2px;
     }
@@ -32,31 +92,30 @@
         margin-right: 20px;
         font-size: 30px;
     }
-    nav {
+    .navbar {
         width: 100%;
     }
-    nav ul {
+    .navbar ul {
         position: absolute;
         width: 100%;
-        max-width: 1280px;
         flex-direction: column;
         top: 73px;
-        background-color: white;
+        background-color: #FFFFFF;
         padding: 30px 0;
         transform: scaleY(0);
         transform-origin: top;
         transition: all ease-in-out .5s;
     }
 
-    nav ul.active {
+    .navbar ul.active {
         transform: scaleY(1);
     }
 
-    nav ul li {
+    .navbar ul li {
         width: 95%;
     }
 
-    nav ul li a {
+    .navbar ul li a {
         border-bottom: 1px solid #FF5857;
         width: 100%;
         display: block;
@@ -67,23 +126,12 @@
         border-radius: 5px;
     }
 
-    nav ul li:nth-child(7), nav ul li:nth-child(7) a{
+    .navbar ul li.login, .navbar ul li.login a{
         display: flex;
         align-items: center;
         justify-content: center;
         width: 200px;
     }
-}
-
-@media screen and (max-width: 640px){
-    .box-kegiatan {
-        grid-template-columns: repeat(1, 1fr);
-        gap: 15px;
-    }
-    .item-kegiatan {
-        width: 90%;
-    } 
-    
 }
 
 

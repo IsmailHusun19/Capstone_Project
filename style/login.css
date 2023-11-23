@@ -7,37 +7,11 @@
     box-sizing: border-box;
 }
 
-.navbar-collapse {
-    justify-content: flex-end;
-}
 
 .container-fluid a img {
     width: 150px;
 }
 
-.navbar-nav {
-    gap: 30px;
-    margin-right: 40px;
-}
-
-.navbar-nav .nav-item .login {
-    width: 100px;
-    padding: 7px 25px;
-    border-radius: 20px;
-    color: whitesmoke;
-    background-color: #FF5857;
-    text-align: center;
-}
-.navbar-nav .nav-item .login:hover {
-    background-color: #ba3939;
-    color: antiquewhite;
-    transition: all ease 0.5s;
-}
-
-.navbar-nav li a {
-    color: #FF5857;
-    font-weight: 600;
-}
 
 .login-container {
     background-color: rgba(255, 255, 255, 0.9);
@@ -50,6 +24,7 @@
     display: flex;
     flex-direction: column;
 }
+
 .input-container {
     margin-bottom: 15px;
 }
@@ -78,8 +53,9 @@ label {
 
 
 a {
+    /* Bagusnya lebih spesifik ditambah class atau yang lainnya biar engga bentrok sama css lain */
     display: block;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
     text-decoration: none;
     color: black;
 }

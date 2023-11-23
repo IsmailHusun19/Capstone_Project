@@ -5,39 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/login.css">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Login</title>
 </head>
 <body>
     <div class="container-nav">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand m-0" href="#"><img src="./aset/logo.png" alt=""></a>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link m-0" href="/index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link m-0" href="#">Kegiatan</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link m-0" href="#">Galeri</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link m-0" href="#">Artikel</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link m-0" href="./daftar.html">Daftar</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link m-0 login" href="./login.html">Login</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <div class="navbar">
+            <div class="image-logo"><img src="aset/logo.png" alt=""></div>
+            <i class="fa-solid fa-bars"></i>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="">Jadwal</a></li>
+                <li><a href="">Kegiatan</a></li>
+                <li><a href="">Galeri</a></li>
+                <li><a href="">Artikel</a></li>
+                <li><a href="daftar.html">Daftar</a></li>
+                <li class="login"><a href="login.html">Masuk</a></li>
+            </ul>
+        </div>
     </div>
     <div class="daftar-page">
         <section class="animate-daftar">
@@ -52,29 +39,18 @@
                 <form action="">
                     <div class="row align-items-center">
                         <div class="input-form">
-                            <div class="wrap-input" >
-                                <input class="input" type="text" placeholder="Nama">
-                                <span class="symbol-input">
-                                    <i class="fa-regular fa-user"></i>
-                                </span>
+                            <div class="email">
+                                <i class="fa-regular fa-user"></i><input type="text" class="form-control" placeholder="Nama">
                             </div>
-                            <div class="wrap-input">
-                                <input class="input" type="Number" placeholder="Number">
-                                <span class="symbol-input">
-                                    <i class="fa-solid fa-phone"></i>
-                                </span>
+                            <div class="email">
+                                <i class="fa-solid fa-phone"></i><input type="number" class="form-control" placeholder="Telephone">
                             </div>
-                            <div class="wrap-input">
-                                <input class="input" type="email" placeholder="Email">
-                                <span class="symbol-input">
-                                    <i class="fa-regular fa-user" ></i>
-                                </span>
+                            <div class="email">
+                                <i class="fa-regular fa-user"></i><input type="email" class="form-control" placeholder="Email">
                             </div>
-                              <div class="wrap-input-password">
-                                <input class="input" type="password" placeholder="password" id="inputPassword" >
-                                <span class="symbol-input">
-                                    <i class="fa-solid fa-lock" aria-describedby="passwordHelpInline"class="form-control"></i>
-                                </span>
+                            <div class="password">
+                                <i class="fa-solid fa-lock"></i><input type="password" id="inputPassword6" class="form-control"
+                                    aria-describedby="passwordHelpInline" placeholder="Password">
                             </div>
                         </div>
                     </div>
@@ -90,9 +66,64 @@
             </div>
         </section>
     </div>
-    
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <div class="row mt-3">
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <img class="logo" src="aset/logo.png" alt="">
+                        </h6>
+                        <p>
+                            Temukan keindahan seni, jadwal pentas, galeri kreativitas, dan berbagi karya Anda dengan komunitas yang bersemangat. Bergabunglah dalam perjalanan seni yang tak terlupakan!
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Menu
+                        </h6>
+                        <p>
+                            <a href="index.html" class="text-reset">Beranda</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Kegiatan</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Artikel</a>
+                        </p>
+                        <p>
+                            <a href="daftar.html" class="text-reset">Daftar</a>
+                        </p>
+                        <p>
+                            <a href="login.html" class="text-reset">Masuk</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Tentang Kami</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Kontak</h6>
+                        <p><i class="fas fa-home me-3"></i> Indonesia</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            PentasSeniID@gmail.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> +62 8128278229</p>
+                        <p><i class="fas fa-print me-3"></i> +62 8128262292</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2021 Copyright:
+            <P class="text-reset fw-bold">Pentas Seni ID</P>
+        </div>
+    </footer>
 </body>
 <script src="./script/login.js"></script>
+<script src="script/script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </html>
