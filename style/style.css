@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,400;1,500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -27,13 +30,13 @@ header {
     margin: 0 auto;
     position: fixed;
     z-index: 100;
+
     background-color: #F8F9FA;
 }
 
 .navbar {
     width: 95%;
     margin: 0 auto;
-
 }
 
 .image-logo img {
@@ -64,18 +67,24 @@ i.fa-bars {
     font-weight: 400;
 }
 
+
 .navbar ul li.login a{
     display: block;
     width: 100px;
-    padding: 7px 0;
-    text-align: center;
+    padding: 7px 25px;
     border-radius: 20px;
     color: #FFFFFF;
     background-color: #FF5857;
 }
+nav ul .login a:hover {
+    background-color: #ba3939;
+    color: antiquewhite;
+    transition: all ease 0.5s;
+}
 
 .navbar ul li a:hover {
     color: #ba3939;
+
 }
 
 .navbar ul li.login a:hover {
@@ -211,6 +220,7 @@ article h1.jadwal {
 .lokasi-waktu-kegiatan .lokasi, .lokasi-waktu-kegiatan .pukul, .lokasi-waktu-kegiatan .tanggal  {
     display: flex;
     justify-content: space-between;
+
 }
 
 .tanggal p{
