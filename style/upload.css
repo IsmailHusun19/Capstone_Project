@@ -1,0 +1,46 @@
+.title-upload {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.title-upload h1 {
+    color: #FF5857 ;
+}
+
+.upload-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.desc-upload {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
+}
+.img-upload {
+    border: 1px solid ;
+    border-radius: 5px;
+}
+
+.btn-upload {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.btn-upload button {
+    background-color: #FF5857;
+    padding: 15px 30px;
+    color: #fff;
+}
+.btn-upload button:hover {
+    background-color: #ba3939;
+    color: #fff;
+}
