@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,400;1,500&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid a img {
+    width: 150px;
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container {
+    margin-bottom: 15px;
+}
+
+label {
+    text-align: left;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.welcome-section {
+    margin-bottom: 100px;
+}
+.welcome-section h1{
+    font-weight: 400;
+    color: #525252;
+}
+.welcome-section p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.welcome-regist {
+    margin-bottom: 30px;
+}
+
+.input {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 100%;
+    border-radius: 25px;
+}
+
+.input-form .email .form-control {
+    background-color: #F0EDFFCC;
+    padding: 15px;
+}
+.input-form .email i {
+    font-size: 25px;
+    font-weight: bold;
+}
+.input-form .password .form-control {
+    background-color: #F0EDFFCC;
+    padding: 15px;
+}
+.input-form .password i {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+a {
+    /* Bagusnya lebih spesifik ditambah class atau yang lainnya biar engga bentrok sama css lain */
+    display: block;
+    /* margin-bottom: 15px; */
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+.btn:hover {
+    background-color: #e01c2d;
+}
+
+.login-page {
+    display: flex;
+    justify-content: space-between;
+}
+
+.daftar-page {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+
+.login-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 400px;
+}
+.daftar-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 200px;
+    width: 50%;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.password {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.login button {
+    padding: 10px 30px;
+    background-color: #FF5857;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.login .daftar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.login .daftar a:hover {
+    color: #FF5857;
+    transition: all ease 0.5s;
+}
+
+.login-with {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login-with .google {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 0;
+}
+.login-with .google a {
+    margin: 0;
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+}
+.login-with .google a span {
+    font-weight: bold;
+}
+.login-with .facebook {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 0;
+}
+.login-with .facebook a {
+    margin: 0;
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+}
+.login-with .facebook a span {
+    font-weight: bold;
+}
+
+.google {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.google img{
+    width: 30px;
+}
+.facebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.facebook img{
+    width: 30px;
+}
+
+.animate {
+    background-image: url(../aset/login-section/Rectangle-4.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.animate-daftar {
+    background-image: url(../aset/login-section/Rectangle-left.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.animate-daftar img{
+    width: 40%;
+}
+
+
+

@@ -2,17 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
     width: 100%;
-    font-family: 'Roboto', sans-serif;
 }
 
-.container {
-    width: 100%;
-    /* max-width: 1280px; */
-    margin: 0 auto;
+.container-my-project {
+    background-color: #F8F9FA;
 }
 
 header {
@@ -25,80 +23,75 @@ header {
   }
 
 .container-nav {
-    /* max-width: 1280px; */
     width: 100%;
     margin: 0 auto;
     position: fixed;
     z-index: 100;
-    background-color: white;
+    background-color: #F8F9FA;
 }
 
-nav {
+.navbar {
     width: 95%;
     margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 
 }
 
 .image-logo img {
-    width: 200px;
+    width: 150px;
     margin-left: -15px;
+    padding: 5px 0;
 }
 
 i.fa-bars {
     display: none;
 }
 
-nav ul {
+.navbar ul {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
+    margin: 0;
 }
 
-nav ul li {
+.navbar ul li {
     list-style: none;
 }
 
-nav ul li a {
-    font-size: 17px;
+.navbar ul li a {
     text-decoration: none;
     color: #FF5857;
     font-weight: 400;
-    
 }
 
-nav ul li:nth-child(7) a{
+.navbar ul li.login a{
     display: block;
     width: 100px;
     padding: 7px 0;
     text-align: center;
     border-radius: 20px;
-    color: whitesmoke;
+    color: #FFFFFF;
     background-color: #FF5857;
 }
 
-nav ul li a:hover {
+.navbar ul li a:hover {
     color: #ba3939;
 }
 
-nav ul li:nth-child(7) a:hover {
-    background-color: #ba3939;
-    color: antiquewhite;
+.navbar ul li.login a:hover {
+    background-color: #ff6d6d;
+    color: #2E2E2E;
 }
 
 .box {
     margin-top: 70px;
     width: 95%;
-    /* max-width: 1280px; */
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-weight: bolder;
-    color: whitesmoke;
+    color: #FFFFFF;
     text-align: center;
 }
 
@@ -114,7 +107,7 @@ nav ul li:nth-child(7) a:hover {
 
 .box a {
     font-weight: bold;
-    color: whitesmoke;
+    color: #FFFFFF;
     background-color: #FF5857;
     width: 200px;
     padding: 12px 0;
@@ -123,20 +116,23 @@ nav ul li:nth-child(7) a:hover {
     margin: 50px auto;
     border-radius: 20px;
     font-size: medium;
+    font-size: 15px;
 }
 
 .box a:hover {
     background-color: #ff6d6d;
+    color: #2E2E2E;
 }
 .box a i {
     margin: 0 5px;
 }
 
 
+
+
 article {
     width: 95%;
     margin: 50px auto;
-    /* max-width: 1280px; */
 }
 
 article h1.jadwal {
@@ -156,17 +152,16 @@ article h1.jadwal {
 
 .box-kegiatan {
     width: 100%;
-    /* max-width: 1280px; */
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
-    /* border: 1px solid red; */
 }
 
 .item-kegiatan {
-    width: 310px;
-    background-color: rgb(254, 254, 254);
+    max-width: 310px;
+    width: 100%;
+    background-color: #FFFFFF;
     box-shadow: 0px 0px 2px black;
     border-radius: 5px;
     margin: 0 auto;
@@ -186,7 +181,6 @@ article h1.jadwal {
 .keteragan-kegiatan {
     display: flex;
     align-items: center;
-    gap: 5px;
     padding: 5px;
     color: #2F2F2F;
 }
@@ -194,12 +188,11 @@ article h1.jadwal {
 .box-judul-lokasi-waktu {
     display: flex;
     flex-direction: column;
-    gap: 5px;
 }
 
 .keteragan-kegiatan .judul-kegiatan h2 {
     cursor: pointer;
-    font-size: 17px;
+    font-size: 15px;
     display: flex;
     margin: 3px 0;
     align-items: center;
@@ -217,14 +210,20 @@ article h1.jadwal {
 
 .lokasi-waktu-kegiatan .lokasi, .lokasi-waktu-kegiatan .pukul, .lokasi-waktu-kegiatan .tanggal  {
     display: flex;
-    margin: 5px 0;
+    justify-content: space-between;
 }
 
 .tanggal p{
-    text-align: right;
-    width: 100%;
-    margin: 10px 5px;
     font-weight: 500;
+    height: max-content;
+    margin: 8px 0;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.deskripsi p {
+    font-size: 14px;
+    margin: 2px 0;
 }
 
 .lokasi-waktu-kegiatan .deskripsi p{
@@ -235,7 +234,7 @@ article h1.jadwal {
     width: 100%;
 }
 
-.lokasi-waktu-kegiatan .deskripsi p{
+.lokasi-waktu-kegiatan .lokasi p:nth-child(2), .lokasi-waktu-kegiatan .pukul p:nth-child(2){
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
@@ -251,7 +250,7 @@ article h1.jadwal {
     width: 100%;
     height: 35px;
     padding: 5px;
-    color: whitesmoke;
+    color: #FFFFFF;
     background-color: #FF5857;
     border: none;
     outline: none;
@@ -265,33 +264,33 @@ article h1.jadwal {
     background-color: #ff6d6d;
 }
 
-.btnSelengkapnya {
-    text-align: center;
+.selengkapnya {
     margin-top: 30px;
+    
 }
 
-.btnSelengkapnya button {
-    border: none;
-    outline: none;
-    background-color: transparent;
+.selengkapnya p {
+    text-align: center;
+    margin: 0;
+}
+.selengkapnya p a {
+    text-decoration: none;
+    color: #2E2E2E;
     cursor: pointer;
-    font-size: 18px;
-    color: #2F2F2F;
 }
 
-.btnSelengkapnya button:hover {
-    color: #505050;
+.selengkapnya p a:hover {
+    color: #ba3939;
+    transition: all ease 0.5s;
 }
-
 
 .container-galeri {
     width: 100%;
-    padding-top: 30px;
-    padding-bottom: 50px;
-    margin: 50px auto;
+    margin: 0 auto;
     margin-bottom: 0;
+    padding: 40px 0;
     background-color: #2E2E2E;
-    color: whitesmoke;
+    color: #FFFFFF;
 }
 
 .container-galeri h1.judulGaleri {
@@ -306,13 +305,13 @@ article h1.jadwal {
 }
 
 .container-galeri .garis {
-    background-color: white;
+    background-color: #FFFFFF;
     margin-bottom: 10px;
 }
 
 .box-galeri {
     width: 95%;
-    margin: 30px auto;
+    margin: 0px auto;
     margin-bottom: 0;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -337,12 +336,12 @@ article h1.jadwal {
 .container-tentangKami {
     background-color: #2E2E2E;
     text-align: center;
-    color: whitesmoke;
+    color: #FFFFFF;
     padding-bottom: 50px;
 }
 
 .container-tentangKami .garis {
-    background-color: white;
+    background-color: #FFFFFF;
     margin-bottom: 10px;
 }
 
@@ -354,6 +353,8 @@ h1.judulTentangKami {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .tentang-kami p {
@@ -362,11 +363,21 @@ h1.judulTentangKami {
     font-size: large;
 }
 
+.title-upload {
+    padding-top: 100px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-upload h1 {
+    color: #FF5857 ;
+}
 
 footer {
     width: 100%;
-    background-color: white;
-    /* border-top: 1px solid whitesmoke; */
+    background-color: #FFFFFF;
 }
 
 .footer {
@@ -379,20 +390,11 @@ footer {
     padding: 50px;
 }
 
-footer .logo-footer img {
-    width: 300px;
+footer {
+    border: 1px solid #F8F9FA;
 }
 
-footer .list-menu-footer ul {
-    display: flex;
-    gap: 20px;
-}
-
-footer .list-menu-footer ul li {
-    list-style: none;
-}
-
-footer .list-menu-footer li a {
-    color: #2E2E2E;
-    text-decoration: none;
+footer img.logo {
+    width: 200px;
+    margin: 0 0 -10px -21px;
 }
