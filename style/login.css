@@ -35,20 +35,28 @@ label {
     display: block;
 }
 
-.welcome-section {
-    margin-bottom: 100px;
-}
+
 .welcome-section h1{
     font-weight: 400;
     color: #525252;
+    margin-top: 73px;
+    
 }
 .welcome-section p{
     font-size: 20px;
     font-weight: bold;
+    margin-bottom: 70px ;
 }
 
-.welcome-regist {
+.welcome-regist h1{
+    margin-top: 73px;
+    margin-bottom: 45px ;
+    color: #525252;
+}
+.Right-regist {
     margin-bottom: 30px;
+    margin-left: auto;
+    
 }
 
 
@@ -76,20 +84,26 @@ a:hover {
 .daftar-page {
     display: flex;
     justify-content: space-between;
+    
 }
-
+.welcome-section h1,
+.welcome-section p {
+    white-space: nowrap;
+}
 .login-section {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin-left: 400px;
+    align-items: center;
+    position: relative;
+    padding-left: 80px;
 }
 .daftar-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-right: 200px;
-    width: 50%;
+    margin-left: 800px;
+    position: relative;
+    margin-right: 30px;
 }
 
 .email {
@@ -113,7 +127,7 @@ a:hover {
 }
 
 .login button {
-    padding: 10px 30px;
+    padding: 10px 20px;
     background-color: #FF5857;
     color: #fff;
     font-weight: bold;
@@ -141,7 +155,7 @@ a:hover {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     text-align: center;
-    padding: 20px 0;
+    padding: 15px 0;
 }
 .login-with .google a {
     margin: 0;
@@ -156,7 +170,7 @@ a:hover {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     text-align: center;
-    padding: 20px 0;
+    padding: 15px 0;
 }
 .login-with .facebook a {
     margin: 0;
@@ -191,9 +205,19 @@ a:hover {
     background-image: url(../aset/login-section/Rectangle-4.png);
     background-repeat: no-repeat;
     height: 100vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    background-position: right;
+    
+}
+.animate img {
+    width: 45%;
+    position: absolute; 
+    top: 55%;
+    left: 75%;
+    transform: translate(-50%, -50%); 
 }
 .animate-daftar {
     background-image: url(../aset/login-section/Rectangle-left.png);
@@ -203,6 +227,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: absolute;
 }
 .animate-daftar img{
     width: 40%;
@@ -210,9 +235,11 @@ a:hover {
 
 .wrap-input {
     position: relative;
-    width: 100%;
+    width: 140%;
     z-index: 1;
     margin-bottom: 10px;
+    margin-left: -20%;
+    margin-right: -20%;
   }
   .input {
     font-family: Poppins-Medium;
@@ -222,7 +249,7 @@ a:hover {
     display: block;
     width: 100%;
     background: #e6e6e6;
-    height: 50px;
+    height: 43px;
     border-radius: 10px;
     padding: 0 30px 0 68px;
     border: none;
@@ -247,4 +274,7 @@ a:hover {
     width: 100%;
     z-index: 1;
     margin-bottom: 20px;
+    width: 140%;
+    margin-left: -20%; 
+    margin-right: -20%;
   }
