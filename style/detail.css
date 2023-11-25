@@ -1,12 +1,68 @@
 .container-detail {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding-top: 200px;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
+    max-height: max-content;
     background-color: #f4f4f4;
+}
+
+.detail {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+}
+
+.detail img {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-width: 420px;
+    min-height: 300px;
+    border-radius: 10px;
+}
+
+.judul-kegiatan h2 {
+    font-weight: 700;
+    font-size: 23px;
+    color: #2e2e2e;
+}
+
+.detail p {
+    text-align: justify;
+    font-size: 14px;
+}
+
+.lokasi-kegiatan p,.tanggal-kegiatan p, .pukul-kegiatan p{
+    font-weight: 600;
+    text-align: left;
+}
+
+.btnTandai {
+    width: 100%;
+    text-align: right;
+}
+
+.btnTandai button {
+    width: 150px;
+    background-color: #ff5353;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    transition: all ease-in-out .25s;
+    font-weight: 500;
+}
+
+.btnTandai button:hover {
+    background-color: rgb(214, 70, 70);
+    color: black;
 }
 
 header {

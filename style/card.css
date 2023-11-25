@@ -2,7 +2,7 @@
     width: 300px;
     height: 300px;
     /* height: 500px; */
-    backdrop-filter: blur(1rem);
+    /* backdrop-filter: blur(1rem); */
     /* background: #bebebe; */
     background-color: rgba(225,225,225,0.1);
     border-radius: 20px;
