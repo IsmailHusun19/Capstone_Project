@@ -1,0 +1,27 @@
+.about {
+    display: flex;
+    padding-top: 150px;
+}
+
+.desc-about {
+    padding: 100px;
+}
+
+.profile {
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 100px;
+}
+
+.team {
+    margin-top: 100px;
+}
+
+.team .team-title h1 {
+    text-align: center;
+    margin-bottom: 70px;
+}
