@@ -1,3 +1,13 @@
+@media screen and (max-width: 1600px) {
+    .login-section {
+        margin-left: 200px;
+    }
+
+    .daftar-section {
+        margin-right: 150px;
+    }
+}
+
 @media screen and (min-width: 1500px) {
     .navbar ul li a {
         font-size: 18px;
@@ -33,11 +43,58 @@
     }
 }
 
+@media screen and (max-width: 1450px) {
+    .card-profile .about-profile .detail-profile {
+        transform: translateY(20px);
+    }
+}
+@media screen and (max-width: 1430px) {
+    .card-profile {
+        height: 360px;
+    }
+    .card-profile .about-profile .detail-profile p{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 1340px) {
+    .login-section {
+        margin-left: 100px;
+    }
+
+    .daftar-section {
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 1280px){
+    .navbar ul li a {
+        font-weight: 400;
+    }
+    .login-section {
+        margin-left: 50px;
+    }
+    .animate {
+        width: 20%;
+    }
+    .animate-daftar {
+        width: auto;
+    }
+    .animate-daftar img {
+        width: 500px;
+    }
+}
+
 @media screen and (max-width: 1270px){
     .box-kegiatan {
         grid-template-columns: repeat(4, 1fr);
     }
     
+}
+@media screen and (max-width: 1250px) {
+    .box-galeri {
+        grid-template-columns: repeat(4, 1fr);
+    } 
 }
 
 @media screen and (max-width: 1200px){
@@ -45,43 +102,6 @@
         grid-template-columns: repeat(3, 1fr);
     }
 }
-
-
-@media screen and (max-width: 850px){
-    .box-kegiatan {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .item-kegiatan {
-        width: 100%;
-        max-width: none;
-    }
-}
-
-@media screen and (max-width: 580px){
-    .box-kegiatan {
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .item-kegiatan {
-        width: 100%;
-    }
-    .box-kegiatan .image-kegiatan img {
-        height: 350px;
-    }
-    article {
-        width: 80%;
-    }
-}
-
-@media screen and (max-width: 520px){
-    article {
-        width: 90%;
-    }
-}
-
-
-
-
-
 
 @media screen and (max-width: 1100px){
     .image-logo img {
@@ -132,25 +152,104 @@
         justify-content: center;
         width: 200px;
     }
-}
 
-
-@media screen and (max-width: 500px){
-    .box h1:nth-child(1){
-        font-size: 40px;
+    .daftar-page {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-    
-    .box h1:nth-child(2){
-        font-size: 20px;
+
+    .daftar-section {
+        padding: 20px;
+        height: 100vh;
+        margin: 0;
+        width: 80%;
+    }
+
+    .animate-daftar {
+        width: 100%;
+        position: absolute;
+        z-index: -99;
+        right: 0;
+    }
+    .login-with .google {
+        background-color: #fff;
+    }
+    .login-with .facebook {
+        background-color: #fff;
+    }
+
+    .daftar-card {
+        padding: 20px;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        /* backdrop-filter: blur(1rem); */
+
+        border-top-color: rgba(225, 225, 225, 0.5);
+        border-left-color: rgba(225, 225, 225, 0.5);
+        border-bottom-color: rgba(225, 225, 225, 0.5);
+        border-right-color: rgba(225, 225, 225, 0.5);
+
+        background-color: rgba(225, 225, 225, 0.7);
+    }
+
+    .about {
+        display: flex;
+        padding-top: 70px;
+        flex-direction: column;
+    }
+    .desc-picture {
+        position: absolute;
+        z-index: -99;
+        right: 0;
+    }
+
+    .desc-about {
+        height: 387px;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        backdrop-filter: blur(.1rem);
+
+        border-top-color: rgba(225, 225, 225, 0.5);
+        border-left-color: rgba(225, 225, 225, 0.5);
+        border-bottom-color: rgba(225, 225, 225, 0.5);
+        border-right-color: rgba(225, 225, 225, 0.5);
+
+        background-color: rgba(225, 225, 225, 0.7);
+    }
+
+}
+
+@media screen and (max-width: 850px){
+    .box-kegiatan {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .item-kegiatan {
+        width: 100%;
+        max-width: none;
+    }
+    .login-page{
+        flex-direction: column;
+    }
+    .login-section {
+        padding: 0 20px;
+        margin: 0 20px;
+        border-radius: 10px;
+        height: 100vh;
+    }
+    .animate {
+        position: absolute;
+        z-index: -99;
+        right: 0;
+    }
+    .login-with .google {
+        background-color: #fff;
+    }
+    .login-with .facebook {
+        background-color: #fff;
     }
 }
 
-
-@media screen and (max-width: 1250px) {
-    .box-galeri {
-        grid-template-columns: repeat(4, 1fr);
-    } 
-}
 
 @media screen and (max-width: 800px) {
     .box-galeri {
@@ -163,6 +262,67 @@
         grid-template-columns: repeat(2, 1fr);
     } 
 }
+
+@media screen and (max-width: 580px){
+    .box-kegiatan {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .item-kegiatan {
+        width: 100%;
+    }
+    .box-kegiatan .image-kegiatan img {
+        height: 350px;
+    }
+    article {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 520px){
+    article {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .box h1:nth-child(1){
+        font-size: 40px;
+    }
+    
+    .box h1:nth-child(2){
+        font-size: 20px;
+    }
+
+   .animate-daftar {
+    display: none;
+   }
+
+    .animate-daftar img {
+        width: 300px;
+    }
+
+    .daftar-section {
+        padding: 0;
+        margin-top: 30px;
+    }
+
+    .daftar-page {
+        background-color: #FF5857;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .desc-about {
+        padding: 70px;
+    }
+}
+
+
+
+
+
+
+
 
 
 
