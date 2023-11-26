@@ -345,14 +345,15 @@ article h1.jadwal {
 }
 
 .container-tentangKami {
-    background-color: #2E2E2E;
+    background-color: #FFFFFF;
     text-align: center;
-    color: #FFFFFF;
+    color: #2E2E2E;
+    padding-top: 30px;
     padding-bottom: 50px;
 }
 
 .container-tentangKami .garis {
-    background-color: #FFFFFF;
+    background-color: #2E2E2E;
     margin-bottom: 10px;
 }
 
@@ -370,8 +371,9 @@ h1.judulTentangKami {
 
 .tentang-kami p {
     font-family: 'Bad Script', cursive;
-    font-weight: 400;
     font-size: large;
+    font-style: normal;
+    color: #2E2E2E;
 }
 
 .title-upload {
