@@ -1,0 +1,63 @@
+.container-box-login-daftar {
+    flex-direction: row-reverse;
+}
+
+.judul-login-daftar h1 {
+    font-size: 25px;
+}
+
+.judul-login-daftar p {
+    font-size: 15px;
+}
+
+.form-login form {
+    gap: 5px;
+    padding: 10px 0;
+}
+
+.container-form#form-daftar {
+    padding: 10px 0;
+    height: 480px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.gambar-login-daftar#gambar-daftar {
+    height: 480px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+
+@media screen and (min-width: 1500px) {
+    .judul-login-daftar h1.daftar {
+        font-size: 40px;
+    }
+    .judul-login-daftar p.daftar {
+        font-size: 30px;
+    }
+    .container-form#form-daftar {
+        width: 100%;
+        height: 600px;
+        gap: 10px;
+    }
+    .form-login .login#daftar {
+        margin-top: 10px;
+        gap: 10px;
+    }
+
+    .login-with#daftar {
+        margin-top: 10px;
+    }
+    .gambar-login-daftar#gambar-daftar {
+        height: 600px;
+    }
+
+    .google img#img-daftar, .facebook img#img-daftar {
+        width: 30px;
+    }
+}

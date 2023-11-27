@@ -1,0 +1,70 @@
+.card-profile {
+    width: 300px;
+    height: max-content;
+    background-color: rgba(225,225,225,0.1);
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-profile {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.35);
+    overflow: hidden;
+    transition: 0.5s;
+    width: 150px;
+    margin-top: 30px;
+}
+
+.img-profile img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-profile .about-profile {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.card-profile .about-profile .detail-profile {
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    transition: 0.5s;
+    transform: translateY(10px);
+}
+.card-profile .about-profile .detail-profile h2{
+    font-size: 20px;
+    color: #555;
+    line-height: 25px;
+    font-weight: 600;
+}
+.card-profile .about-profile .detail-profile p{
+    color: #555;
+}
+.card-profile .about-profile .detail-profile span{
+    font-size: 15px;
+    font-weight: 500;
+    opacity: 0.5;
+}
+.card-profile .about-profile .detail-profile .actionBtn{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card-profile .about-profile .detail-profile .actionBtn a{
+    font-size: 30px;
+    color: #555;
+}
