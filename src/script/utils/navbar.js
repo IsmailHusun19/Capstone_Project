@@ -5,7 +5,6 @@ const navBar = () => {
   navbarToggler.addEventListener('click', () => {
     navbar.classList.toggle('active');
     navbarToggler.classList.toggle('fa-bars-staggered');
-    console.log('heheh');
   });
 
   document.addEventListener('click', (event) => {
@@ -17,8 +16,13 @@ const navBar = () => {
       navbarToggler.classList.remove('fa-bars-staggered');
     }
   });
+  const links = navbar.querySelectorAll('a');
+  links.forEach((link) => {
+    link.addEventListener('click', () => {
+      navbar.classList.remove('active');
+      navbarToggler.classList.remove('fa-bars-staggered');
+    });
+  });
 };
-
-navBar();
 
 export default navBar;

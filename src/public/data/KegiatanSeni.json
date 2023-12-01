@@ -1,0 +1,304 @@
+{
+    "JadwalSeni": [
+        {
+            "id": 1,
+            "judul": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, repellat.",
+            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
+            "gambar": "./../../src/public/aset/item/item1.png",
+            "lokasi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+            "tanggal": "10 November 2023",
+            "pukul": "10:20 WIB",
+            "status": true
+        },
+        {
+            "id": 2,
+            "judul": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, repellat.",
+            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
+            "gambar": "./../../src/public/aset/item/item2.png",
+            "lokasi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+            "tanggal": "10 November 2023",
+            "pukul": "10:20 WIB",
+            "status": true
+        },
+        {
+            "id": 3,
+            "judul": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, repellat.",
+            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
+            "gambar": "./../../src/public/aset/item/item3.png",
+            "lokasi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+            "tanggal": "10 November 2023",
+            "pukul": "10:20 WIB",
+            "status": true
+        },
+        {
+            "id": 4,
+            "judul": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, repellat.",
+            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
+            "gambar": "./../../src/public/aset/item/item1.png",
+            "lokasi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+            "tanggal": "10 November 2023",
+            "pukul": "10:20 WIB",
+            "status": true
+        },
+        {
+            "id": 5,
+            "judul": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, repellat.",
+            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
+            "gambar": "./../../src/public/aset/item/item2.png",
+            "lokasi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+            "tanggal": "10 November 2023",
+            "pukul": "10:20 WIB",
+            "status": true
+        },
+        {
+            "id": 6,
+            "judul": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, repellat.",
+            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
+            "gambar": "./../../src/public/aset/item/item3.png",
+            "lokasi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+            "tanggal": "10 November 2023",
+            "pukul": "10:20 WIB",
+            "status": true
+        },
+        {
+            "id": 7,
+            "judul": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, repellat.",
+            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
+            "gambar": "./../../src/public/aset/item/item1.png",
+            "lokasi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+            "tanggal": "10 November 2023",
+            "pukul": "10:20 WIB",
+            "status": true
+        },
+        {
+            "id": 8,
+            "judul": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, repellat.",
+            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
+            "gambar": "./../../src/public/aset/item/item2.png",
+            "lokasi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+            "tanggal": "10 November 2023",
+            "pukul": "10:20 WIB",
+            "status": true
+        },
+        {
+            "id": 9,
+            "judul": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, repellat.",
+            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
+            "gambar": "./../../src/public/aset/item/item3.png",
+            "lokasi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+            "tanggal": "10 November 2023",
+            "pukul": "10:20 WIB",
+            "status": true
+        },
+        {
+            "id": 10,
+            "judul": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, repellat.",
+            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
+            "gambar": "./../../src/public/aset/item/item1.png",
+            "lokasi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+            "tanggal": "10 November 2023",
+            "pukul": "10:20 WIB",
+            "status": true
+        },
+        {
+            "id": 11,
+            "judul": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, repellat.",
+            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
+            "gambar": "./../../src/public/aset/item/item2.png",
+            "lokasi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+            "tanggal": "10 November 2023",
+            "pukul": "10:20 WIB",
+            "status": true
+        },
+        {
+            "id": 12,
+            "judul": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, repellat.",
+            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
+            "gambar": "./../../src/public/aset/item/item3.png",
+            "lokasi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+            "tanggal": "10 November 2023",
+            "pukul": "10:20 WIB",
+            "status": true
+        },
+        {
+            "id": 13,
+            "judul": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, repellat.",
+            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
+            "gambar": "./../../src/public/aset/item/item1.png",
+            "lokasi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+            "tanggal": "10 November 2023",
+            "pukul": "10:20 WIB",
+            "status": true
+        },
+        {
+            "id": 14,
+            "judul": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, repellat.",
+            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
+            "gambar": "./../../src/public/aset/item/item2.png",
+            "lokasi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+            "tanggal": "10 November 2023",
+            "pukul": "10:20 WIB",
+            "status": true
+        },
+        {
+            "id": 15,
+            "judul": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, repellat.",
+            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
+            "gambar": "./../../src/public/aset/item/item3.png",
+            "lokasi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+            "tanggal": "10 November 2023",
+            "pukul": "10:20 WIB",
+            "status": true
+        },
+        {
+            "id": 16,
+            "judul": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, repellat.",
+            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
+            "gambar": "./../../src/public/aset/item/item1.png",
+            "lokasi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+            "tanggal": "10 November 2023",
+            "pukul": "10:20 WIB",
+            "status": true
+        },
+        {
+            "id": 17,
+            "judul": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, repellat.",
+            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
+            "gambar": "./../../src/public/aset/item/item1.png",
+            "lokasi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+            "tanggal": "10 November 2023",
+            "pukul": "10:20 WIB",
+            "status": false
+        },
+        {
+            "id": 18,
+            "judul": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, repellat.",
+            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
+            "gambar": "./../../src/public/aset/item/item1.png",
+            "lokasi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+            "tanggal": "10 November 2023",
+            "pukul": "10:20 WIB",
+            "status": true
+        },
+        {
+            "id": 19,
+            "judul": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, repellat.",
+            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
+            "gambar": "./../../src/public/aset/item/item1.png",
+            "lokasi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+            "tanggal": "10 November 2023",
+            "pukul": "10:20 WIB",
+            "status": true
+        },
+        {
+            "id": 20,
+            "judul": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, repellat.",
+            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
+            "gambar": "./../../src/public/aset/item/item1.png",
+            "lokasi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+            "tanggal": "10 November 2023",
+            "pukul": "10:20 WIB",
+            "status": false
+        },
+        {
+            "id": 21,
+            "judul": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, repellat.",
+            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
+            "gambar": "./../../src/public/aset/item/item1.png",
+            "lokasi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+            "tanggal": "10 November 2023",
+            "pukul": "10:20 WIB",
+            "status": true
+        },
+        {
+            "id": 22,
+            "judul": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, repellat.",
+            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
+            "gambar": "./../../src/public/aset/item/item1.png",
+            "lokasi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+            "tanggal": "10 November 2023",
+            "pukul": "10:20 WIB",
+            "status": true
+        },
+        {
+            "id": 23,
+            "judul": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, repellat.",
+            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
+            "gambar": "./../../src/public/aset/item/item1.png",
+            "lokasi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+            "tanggal": "10 November 2023",
+            "pukul": "10:20 WIB",
+            "status": true
+        },
+        {
+            "id": 24,
+            "judul": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, repellat.",
+            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
+            "gambar": "./../../src/public/aset/item/item1.png",
+            "lokasi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+            "tanggal": "10 November 2023",
+            "pukul": "10:20 WIB",
+            "status": true
+        },
+        {
+            "id": 25,
+            "judul": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, repellat.",
+            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
+            "gambar": "./../../src/public/aset/item/item1.png",
+            "lokasi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+            "tanggal": "10 November 2023",
+            "pukul": "10:20 WIB",
+            "status": true
+        },
+        {
+            "id": 26,
+            "judul": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, repellat.",
+            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
+            "gambar": "./../../src/public/aset/item/item1.png",
+            "lokasi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+            "tanggal": "10 November 2023",
+            "pukul": "10:20 WIB",
+            "status": true
+        },
+        {
+            "id": 27,
+            "judul": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, repellat.",
+            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
+            "gambar": "./../../src/public/aset/item/item1.png",
+            "lokasi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+            "tanggal": "10 November 2023",
+            "pukul": "10:20 WIB",
+            "status": true
+        },
+        {
+            "id": 28,
+            "judul": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, repellat.",
+            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
+            "gambar": "./../../src/public/aset/item/item1.png",
+            "lokasi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+            "tanggal": "10 November 2023",
+            "pukul": "10:20 WIB",
+            "status": true
+        },
+        {
+            "id": 29,
+            "judul": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, repellat.",
+            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
+            "gambar": "./../../src/public/aset/item/item1.png",
+            "lokasi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+            "tanggal": "10 November 2023",
+            "pukul": "10:20 WIB",
+            "status": true
+        },
+        {
+            "id": 30,
+            "judul": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, repellat.",
+            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
+            "gambar": "./../../src/public/aset/item/item1.png",
+            "lokasi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+            "tanggal": "10 November 2023",
+            "pukul": "10:20 WIB",
+            "status": true
+        }
+    ]
+}

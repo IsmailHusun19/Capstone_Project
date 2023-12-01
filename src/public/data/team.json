@@ -1,0 +1,54 @@
+{
+    "Team": [
+        {
+            "id": 1,
+            "nama": "Muhamad Farras Azahry",
+            "gambar": "../../../src/public/aset/about/foto-pp2.png",
+            "role": "Full Stack Web Developer",
+            "univ": "Universitas Pamulang",
+            "linked": "#",
+            "instahram": "#",
+            "github": "#"
+        },
+        {
+            "id": 2,
+            "nama": "Ismail Husun",
+            "gambar": "../../../src/public/aset/about/foto-pp2.png",
+            "role": "Full Stack Web Developer",
+            "univ": "Universitas Banten Jaya",
+            "linked": "#",
+            "instahram": "#",
+            "github": "#"
+        },
+        {
+            "id": 3,
+            "nama": "Dita Ayu Kustina",
+            "gambar": "../../../src/public/aset/about/foto-pp2.png",
+            "role": "Full Stack Web Developer",
+            "univ": "Universitas Banten Jaya",
+            "linked": "#",
+            "instahram": "#",
+            "github": "#"
+        },
+        {
+            "id": 4,
+            "nama": "Ihpaz Laga Sukanda",
+            "gambar": "../../../src/public/aset/about/foto-pp2.png",
+            "role": "Full Stack Web Developer",
+            "univ": "Universitas Banten Jaya",
+            "linked": "#",
+            "instahram": "#",
+            "github": "#"
+        },
+        {
+            "id": 1,
+            "nama": "Satria Dioufan Artha Desanta",
+            "gambar": "../../../src/public/aset/about/foto-pp2.png",
+            "role": "Full Stack Web Developer",
+            "univ": "Universitas Banten Jaya",
+            "linked": "#",
+            "instahram": "#",
+            "github": "#"
+        }
+    ]
+}
