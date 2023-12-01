@@ -29,7 +29,7 @@ header.header {
     width: 100%;
     margin: 0 auto;
     position: fixed;
-    z-index: 100;
+    z-index: 9999999;
     background-color: #F8F9FA;
 }
 
@@ -209,7 +209,7 @@ article h1.jadwal {
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    color: #FF5857;
+    color: #2E2E2E;
     font-weight: 500;
 }
 
@@ -282,15 +282,10 @@ article h1.jadwal {
 .selengkapnya p {
     text-align: center;
     margin: 0;
-}
-.selengkapnya p a {
-    text-decoration: none;
-    color: #2E2E2E;
     cursor: pointer;
-    font-weight: 500;
 }
 
-.selengkapnya p a:hover {
+.selengkapnya p:hover {
     color: #ba3939;
     transition: all ease 0.5s;
 }

@@ -3,7 +3,7 @@ import artikel from '../page/artikel/artikel.js';
 import aboutUs from '../page/about-us/about-us.js';
 import login from '../page/login/login.js';
 import daftar from '../page/daftar/daftar.js';
-import detail from '../page/detail/detail.js';
+import detail from '../page/detail/detailKegiatanSeni.js';
 
 const URL = () => {
   function handleRoute() {

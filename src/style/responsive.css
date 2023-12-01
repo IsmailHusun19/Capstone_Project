@@ -132,46 +132,52 @@
         padding: 20px;
         border: 1px solid transparent;
         border-radius: 10px;
-        /* backdrop-filter: blur(1rem); */
-
         border-top-color: rgba(225, 225, 225, 0.5);
         border-left-color: rgba(225, 225, 225, 0.5);
         border-bottom-color: rgba(225, 225, 225, 0.5);
         border-right-color: rgba(225, 225, 225, 0.5);
-
         background-color: rgba(225, 225, 225, 0.7);
     }
 
     .about {
         display: flex;
-        padding-top: 70px;
+        justify-content: center;
         flex-direction: column;
         height: min-content;
         text-align: center;
+        background-image: url(../../src/public/aset/about/3d-render.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
-    .desc-picture {
-        position: absolute;
-        z-index: -99;
-        right: 0;
+
+    .desc-about h1 {
+        color: #2e2e2e;
     }
 
     .desc-picture img {
-        height: 387px;
+        width: 100%;
         object-fit: cover;
+        display: none;
     }
 
     .desc-about {
         height: 387px;
-        border: 1px solid transparent;
-        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
         backdrop-filter: blur(.1rem);
-        border-top-color: rgba(225, 225, 225, 0.5);
-        border-left-color: rgba(225, 225, 225, 0.5);
-        border-bottom-color: rgba(225, 225, 225, 0.5);
-        border-right-color: rgba(225, 225, 225, 0.5);
         background-color: rgba(225, 225, 225, 0.7);
     }
 
+}
+
+@media screen and (max-width: 400px) {
+    .desc-about {
+        padding: 50px 20px 0 20px;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 850px){
