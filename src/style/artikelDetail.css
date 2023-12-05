@@ -25,7 +25,7 @@ body {
     margin: 0 auto;
     max-width: 100%;
     height: auto;
-    width: 60%;
+    width: 65%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -35,8 +35,9 @@ body {
   header p {
     position: absolute;
     margin: 0 auto;
-    top: 83%;
-    left: 20%;
+    top: 85%;
+    left: 17%;
+    font-size: 80%;
   }
   
   main {
@@ -49,17 +50,20 @@ body {
   .main-content {
     flex: 2;
     background-color: #f9f9f9;
+    margin-right: 30px;
+    text-align: justify;
   }
   
-  
+
   .related-article {
+    margin-top: 22px;
     display: flex;
-    width: 300px; /* Lebar kotak */
-    height: 400px; /* Tinggi kotak */
+    width: 300px; 
+    height: 400px;
     margin-bottom: 20px;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    overflow: hidden; /* Mengatasi gambar yang terlalu besar */
+    overflow: hidden;
   }
   
   .related-article img {
@@ -82,6 +86,7 @@ body {
   
   .article-details p {
     margin-bottom: 15px;
+    font-size: 80%;
   }
   
   .article-details button {
@@ -91,4 +96,44 @@ body {
     color: #fff;
     border-radius: 3px;
     cursor: pointer;
+  }
+
+  @media (max-width: 768px) {
+
+    header img {
+      width: 80%;
+    }
+
+    header p {
+      position: absolute;
+      top: 75%;
+      left: 10%;
+      font-size: 80%;
+    }
+
+    main {
+      padding-top: 310px;
+      padding-left: 50px;
+      padding-right: 50px;
+      display: flex;
+    }
+
+    .related-article {
+      width: 170px; 
+      height: 220px;
+      margin-bottom: 20px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    main {
+      display : block;
+      padding-top: 200px;
+    }
+    .row {
+      display: flex;
+    }
+    .related-article {
+      margin-right: 20px;
+    }
   }
