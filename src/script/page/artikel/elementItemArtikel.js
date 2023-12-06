@@ -1,0 +1,38 @@
+const elementArtikel = (boxItem, items, newItem) => {
+  const gambarItem = document.createElement('div');
+  gambarItem.classList.add('gambar-item-artikel');
+  const img = document.createElement('img');
+  img.src = items.gambar;
+  img.alt = '';
+  gambarItem.appendChild(img);
+  const keteranganArtikel = document.createElement('div');
+  keteranganArtikel.classList.add('keterangan-artikel');
+  const judulItemArtikel = document.createElement('div');
+  judulItemArtikel.classList.add('judul-item-artikel');
+  const judul = document.createElement('h2');
+  judul.textContent = items.judul;
+  judulItemArtikel.appendChild(judul);
+  const keteranganItemArtikel = document.createElement('div');
+  keteranganItemArtikel.classList.add('keterangan-item-artikel');
+  const deskripsi = document.createElement('p');
+  deskripsi.textContent = items.deskripsi;
+  keteranganItemArtikel.appendChild(deskripsi);
+  keteranganArtikel.appendChild(judulItemArtikel);
+  keteranganArtikel.appendChild(keteranganItemArtikel);
+  const keteranganLain = document.createElement('div');
+  keteranganLain.classList.add('keterangan-lain');
+  const kota = document.createElement('p');
+  kota.textContent = items.kota;
+  const waktu = document.createElement('p');
+  const spanWaktu = document.createElement('span');
+  spanWaktu.textContent = items.waktu;
+  waktu.appendChild(spanWaktu);
+  keteranganLain.appendChild(kota);
+  keteranganLain.appendChild(waktu);
+  newItem.appendChild(gambarItem);
+  newItem.appendChild(keteranganArtikel);
+  newItem.appendChild(keteranganLain);
+  boxItem.appendChild(newItem);
+};
+
+export default elementArtikel;

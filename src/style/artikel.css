@@ -153,16 +153,19 @@ nav ul .login a:hover {
     width: 100%;
     box-shadow: 0 0 5px black;
     border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    min-height: 370px;
 }
 
 .gambar-item-artikel img {
     width: 100%;
-    max-height: 200px;
+    height: 200px;
     object-fit: cover;
 }
 
 .keterangan-artikel {
-    padding: 0  5px;
+    padding: 0 5px;
 }
 
 .judul-item-artikel h2 {
@@ -192,6 +195,8 @@ nav ul .login a:hover {
     display: flex;
     gap: 10px;
     padding: 0 5px;
+    position: absolute;
+    bottom: 5px;
 }
 
 .keterangan-lain p {
@@ -205,31 +210,3 @@ nav ul .login a:hover {
     color: #2E2E2E;
 }
 
-
-footer {
-    width: 100%;
-    background-color: #FFFFFF;
-}
-
-.footer {
-    width: 95%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-between;
-    margin: 0 auto;
-    padding: 50px;
-}
-
-footer {
-    border: 1px solid #F8F9FA;
-}
-
-footer img.logo {
-    width: 200px;
-    margin: 0 0 -10px -21px;
-}
-
-.text-reset {
-    margin: 0;
-}

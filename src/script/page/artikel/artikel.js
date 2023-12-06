@@ -16,8 +16,8 @@ const artikel = () => {
         </div>
         <div class="item-artikel"></div>
     </div>`;
-    headerArtikel();
-    itemArtikel();
+  headerArtikel();
+  itemArtikel();
 };
 
 export default artikel;

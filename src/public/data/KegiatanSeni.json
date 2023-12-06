@@ -2,7 +2,7 @@
     "JadwalSeni": [
         {
             "id": 1,
-            "judul": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, repellat.",
+            "judul": "2",
             "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
             "gambar": "./../../src/public/aset/item/item1.png",
             "lokasi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
@@ -12,7 +12,7 @@
         },
         {
             "id": 2,
-            "judul": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, repellat.",
+            "judul": "kakung kan",
             "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
             "gambar": "./../../src/public/aset/item/item2.png",
             "lokasi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
@@ -22,7 +22,7 @@
         },
         {
             "id": 3,
-            "judul": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, repellat.",
+            "judul": "lolo",
             "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
             "gambar": "./../../src/public/aset/item/item3.png",
             "lokasi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",

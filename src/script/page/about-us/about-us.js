@@ -1,6 +1,6 @@
 import risetPage from '../../utils/risetPage.js';
 import headerAbout from './headerAbout.js';
-import tentangKami from '../beranda/tentangKami.js';
+import tentangKami from './tentangKami.js';
 import team from './team.js';
 
 const aboutUs = () => {

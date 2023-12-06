@@ -1,94 +1,204 @@
 {
     "Artikel": [
         {
-            "id": 1,
+            "id": 0,
             "judul": "Tantowi Yahya Gelar Lelang Lukisan Amal untuk Pahlawan Seni dan Olahraga Indonesia",
             "gambar": "https://asset.kompas.com/crops/oET24L7l1jLpdmU6lDiSdKm207Q=/0x0:0x0/750x500/data/photo/2023/11/29/6566c76cf33c7.jpeg",
-            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
+            "deskripsi": [
+                "Salah satu individu yang diharapkan menerima bantuan dari acara lelang ini adalah mantan pesepakbola, Budiono Sutikno, yang saat ini hidup dalam kondisi sulit di Semarang. Tantowi Yahya menggambarkan keadaannya sebagai hampir tidak berdaya, tanpa keluarga, penghasilan, dan dalam kondisi sakit-sakitan.",
+                "Tantowi Yahya, seorang presenter dan politikus, mengadakan acara lelang lukisan amal melalui Yayasan Upaya Indonesia Damai (UID) untuk membantu para pahlawan seni dan olahraga Indonesia yang mengalami kesulitan. Melalui acara ini, dia berharap dapat memberikan bantuan kepada seniman dan mantan atlet yang menghadapi berbagai kesulitan, seperti masalah kesehatan dan keuangan di usia tua.",
+                "Beberapa nama lain yang dijadwalkan menerima bantuan dari hasil lelang lukisan ini antara lain Mardi Lestari (pelari), Sukardi (penyanyi keroncong), Putu Wijaya (budayawan sastra Indonesia), H. Ukat (penyanyi dangdut Indonesia), dan sejumlah lainnya.",
+                "Pameran lelang lukisan amal ini menampilkan 69 lukisan yang telah dipilih secara khusus. Acaranya dilaksanakan dalam format hybrid, dengan lelang luring di Djakarta Theater pada 27-28 November 2023 yang dipandu oleh Helmy Yahya. Sedangkan lelang daring akan berlangsung hingga 31 Desember 2023."
+            ],
             "waktu": "29/11/2023, 12:26 WIB",
             "kota": "Jakarta",
             "sumber": "https://www.kompas.com/hype/read/2023/11/29/122653766/tantowi-yahya-gelar-lelang-lukisan-amal-untuk-pahlawan-seni-dan-olahraga"
+        },
+        {
+           "id": 1,
+           "judul": "Lestarikan seni dan Budaya Gambuh Buddha Kecapi Dipentaskan di Bali",
+           "gambar": "https://akcdn.detik.net.id/community/media/visual/2023/10/30/pementasan-gambuh-buddha-kecapi-untuk-lestarikan-seni-dan-budaya_169.jpeg?w=700&q=90",
+           "deskripsi":[
+            "Pupuk Kaltim dan Yayasan Puri Kauhan Ubud menggelar pentas seni Gambuh Buddha Kecapi di Bali. Pentas seni ini untuk melestarikan seni dan budaya Indonesia, Gambuh Buddha Kecapi dipentaskan di Pemedal Agung Kerta Gosa Klungkung"
+           ],
+           "waktu": "27/10/2023, 17:40 WIB",
+           "kota": "Bali",
+           "sumber": "https://news.detik.com/foto-news/d-7010509/lestarikan-seni-dan-budaya-gambuh-buddha-kecapi-dipentaskan-di-bali"
         },
         {
             "id": 2,
-            "judul": "Tantowi Yahya Gelar Lelang Lukisan Amal untuk Pahlawan Seni dan Olahraga Indonesia",
-            "gambar": "https://asset.kompas.com/crops/oET24L7l1jLpdmU6lDiSdKm207Q=/0x0:0x0/750x500/data/photo/2023/11/29/6566c76cf33c7.jpeg",
-            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
-            "waktu": "29/11/2023, 12:26 WIB",
-            "kota": "Jakarta",
-            "sumber": "https://www.kompas.com/hype/read/2023/11/29/122653766/tantowi-yahya-gelar-lelang-lukisan-amal-untuk-pahlawan-seni-dan-olahraga"
+            "judul": "Pentas Seni Budaya di Unila",
+            "gambar": "https://akcdn.detik.net.id/community/media/visual/2023/11/01/taufik-basri_169.jpeg?w=700&q=90",
+            "deskripsi":[
+                "Wakil Ketua Badan Sosialisasi yang juga Ketua Fraksi Partai Nasdem MPR, Taufik Basari menegaskan MPR mempunyai banyak metode sosialisasi sesuai audiens yang dituju. Untuk para mahasiswa misalnya, selain seminar dan focus group discussion, MPR juga memiliki metode Pentas Seni Budaya (PSB).",
+                "Metode ini menampilkan hasil kreasi seni budaya yang dekat dengan masyarakat setempat. Selain menggali kesenian lokal dan mendekatkan kembali kepada generasi muda, PSB juga berfungsi menjaga hasil cipta, karsa, dan karya nenek moyang agar tidak tergilas oleh zaman dan hilang begitu saja."
+            ],
+            "waktu": "01/11/2023, 20:19 WIB",
+            "kota": "Bandar Lampung",
+            "sumber":"https://news.detik.com/berita/d-7014601/pentas-seni-budaya-di-unila-taufik-basari-punya-keragaman-harus-dijaga"
         },
         {
             "id": 3,
-            "judul": "Tantowi Yahya Gelar Lelang Lukisan Amal untuk Pahlawan Seni dan Olahraga Indonesia",
-            "gambar": "https://asset.kompas.com/crops/oET24L7l1jLpdmU6lDiSdKm207Q=/0x0:0x0/750x500/data/photo/2023/11/29/6566c76cf33c7.jpeg",
-            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
-            "waktu": "29/11/2023, 12:26 WIB",
-            "kota": "Jakarta",
-            "sumber": "https://www.kompas.com/hype/read/2023/11/29/122653766/tantowi-yahya-gelar-lelang-lukisan-amal-untuk-pahlawan-seni-dan-olahraga"
+            "judul": "Gelaran Pentas Seni Nouveau 2023 Memukau Para Pengunjung",
+            "gambar": "https://cdn.rri.co.id/berita/19/images/1699847023130-7/j0aqlacfb681ta6.jpeg",
+            "deskripsi":[
+               " Spektakuler, kata yang tepat untuk menggambarkan megahnya acara Pentas Seni SMA Negeri 5 Surabaya, Nouveau 2023, Sabtu, 11 November 2023 di Convention Hall Grand City Surabaya. Acara tahunan yang diselenggarakan oleh SMALA (Sebutan untuk SMA Negeri 5 Surabaya) ini dimulai sekitar pukul 2 siang dibuka oleh penampilan para finalis Nouzest kompetisi band. Kemudian, acara dilanjutkan kembali dengan penampilan memukau Smala Big Band. Menurut salah satu panitia yang menjabat sebagai Humas Nouveau 2023, acara yang bagi 4 kelas yaitu Festival, Golden Festival, VIP dan VVIP berhasil mengumpulkan penonton dengan menjual seluruh tiket alias sold out,Tiket acara Nouveau 2023 ini sudah terjual habis. Baik dari kelas festival hingga VIP",
+               " Sekitar pukul 5 sore acara dilanjutkan dengan penampilan spesial yaitu persembahan Colossal, sebuah drama musikal yang disuguhkan oleh siswa siswi SMA Negeri 5 Surabaya. Pukul 18.30 Fourtwnty  sebagai salah satu guest star memulai pertunjukkannya. Ada momen menarik yang selalu dilakukan oleh Fourtwnty di setiap panggungnya yaitu mengajak penonton untuk menyanyikan lagu Indonesia Pusaka sembari membentangkan bendera Indonesia di atas panggung mereka. Fourtwnty membawakan trek andalannya seperti Zona Nyaman, Aku Tenang hingga Fana Merah Jambu.",
+               " Beres Fourtwnty, Nouveau 2023 yang dipenuhi lebih dari 3000 orang ini kembali di panaskan oleh penampilan Rossa. Diva satu ini sempat mengajak beberapa penonton untuk naik ke atas panggung dan mengutarakan pengakuan yang ingin ia ungkapkan didepan penonton Nouveau. Rossa kembali menghebohkan panggung nya dengan beberapa hits andalannya seperti Tegar, Pudar dan Hey Ladies yang menjadi lagu penutup penampilan Rossa.",
+               " Ribuan penonton yang sebagian besar adalah Wota (Fans JKT 48) ini mulai menyanyikan chant- chant sebelum JKT 48 menaiki panggung. Penonton mulai di buat heboh ketika para member JKT 48 menaiki panggung dan menyanyikan lagu Fortune Cookies sebagai awal pertunjukkan mereka. Kemudian tanpa henti JKT 48 membuat para penonton bernyanyi dan berjoget mengikuti alunan musik yang mereka bawakan, Heavy Rotation menjadi lagu penutup acara Nouveau 2023"
+            ],
+            "waktu": "11/11/2023, 14:00 WIB",
+            "kota": "Surabaya",
+            "sumber": "https://www.rri.co.id/surabaya/hiburan/441441/gelaran-pentas-seni-nouveau-2023-memukau-para-pengunjung"
         },
         {
             "id": 4,
-            "judul": "Tantowi Yahya Gelar Lelang Lukisan Amal untuk Pahlawan Seni dan Olahraga Indonesia",
-            "gambar": "https://asset.kompas.com/crops/oET24L7l1jLpdmU6lDiSdKm207Q=/0x0:0x0/750x500/data/photo/2023/11/29/6566c76cf33c7.jpeg",
-            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
-            "waktu": "29/11/2023, 12:26 WIB",
-            "kota": "Jakarta",
-            "sumber": "https://www.kompas.com/hype/read/2023/11/29/122653766/tantowi-yahya-gelar-lelang-lukisan-amal-untuk-pahlawan-seni-dan-olahraga"
+            "judul": "Lampung Selatan Expo 2023 Gelar Pentas Seni Budaya",
+            "gambar": "https://cdn.rri.co.id/berita/27/images/1700537289299-I/3owek4eyjeq7un1.jpeg",
+            "deskripsi":[
+                " Bupati Lampung Selatan H. Nanang Ermanto turut memeriahkan event Lampung Selatan Expo 2023 dengan menghadiri malam pentas seni budaya yang digelar pada Senin malam (21/11/2023)",
+                " Malam Pentas Seni Budaya menjadi salah satu rangkaian dalam event Lampung Selatan Expo 2023 yang berlangsung selama 10 hari, sejak dibuka Bupati Lampung Selatan pada tanggal 14 November 2023.",
+                " Pada malam tersebut, tampak Bupati Nanang Ermanto begitu antusias dan menikmati berbagai ekspresi seni dan budaya yang memeriahkan acara Lampung Selatan Expo 2023.",
+                " Salah satu momen tak terlupakan adalah saat Nanang Ermanto beserta istri Winarni bergabung ditengah acara dan bernyanyi di panggung, turut menghibur para pengunjung yang hadir. Kehadiran Nanang Ermanto menambah kehangatan acara dan menciptakan ikatan emosional antara pemimpin daerah dan masyarakat.",
+                " Acara tersebut bukan hanya menjadi wadah untuk mempererat hubungan antara pemerintah daerah dan masyarakat, tetapi juga sebagai sarana untuk mempromosikan potensi seni dan budaya lokal.",
+                " Nanang Ermanto berharap agar melalui kegiatan semacam ini, semakin banyak generasi muda yang terinspirasi untuk melestarikan dan mengembangkan warisan budaya daerah"  
+            ],
+            "waktu": "21/11/2023, 10:28 WIB",
+            "kota": "Bandar Lampung",
+            "sumber": "https://www.rri.co.id/daerah/451550/lampung-selatan-expo-2023-gelar-pentas-seni-budaya"
         },
         {
-            "id": 5,
-            "judul": "Tantowi Yahya Gelar Lelang Lukisan Amal untuk Pahlawan Seni dan Olahraga Indonesia",
-            "gambar": "https://asset.kompas.com/crops/oET24L7l1jLpdmU6lDiSdKm207Q=/0x0:0x0/750x500/data/photo/2023/11/29/6566c76cf33c7.jpeg",
-            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
-            "waktu": "29/11/2023, 12:26 WIB",
-            "kota": "Jakarta",
-            "sumber": "https://www.kompas.com/hype/read/2023/11/29/122653766/tantowi-yahya-gelar-lelang-lukisan-amal-untuk-pahlawan-seni-dan-olahraga"
+           "id": 5,
+           "judul": "Pentas Seni Drama Musical LPKA Tangerang",
+           "gambar": "https://banten.kemenkumham.go.id/images/2023/10/28/3/IMG-20231028-WA0115.jpg",
+           "deskripsi":[
+            " Ikut meriahkan peringatan Hari Sumpah Pemuda Tahun 2023, LPKA Kelas I Tangerang menggelar Pentas Seni Drama Musical dengan Tema BERANI BANGKIT yang bertempat di Aula LPKA Tangerang",
+            " Pentas Seni Drama Musical melibatkan 80% Anak Binaan yang berada di LPKA Tangerang yang berjumlah 65 anak binaan, dengan mengkolaborasikan Kesenian Teater, Tari, Bermain Angklung dan Band.",
+            " Kegiatan ini tidak lain adalah untuk membangun dan menemukan potensi anak-anak binaan kita, khususnya bidang seni. Semoga dapat menjadi inspirasi untuk semua dan menjadi wadah kreatifitas. Walau dalam kenyataannya dibatasi, tapi tidak akan membatasi kreatifitas anak. Ujar Kepala Kantor Wilayah Kementerian Hukum dan HAM Banten Dodot Adikoeswanto.",
+            " Untuk mempersiapkan hasil yang maksimal para Anak Binaan Pemasyarakatan ini dilatih oleh orang orang yang profesional seperti Teater Koma untuk melatih akting di atas panggung, dalam melatih vokal dan bermusik LPKA berkolaborasi dengan Genara Entertainment serta Sanggar Genta Kaibon dan untuk melatih menari LPKA menggandeng Line Dance."
+           ],
+           "waktu": "28/10/2023, 10:00 WIB",
+           "kota": "Tangerang",
+           "sumber": "https://banten.kemenkumham.go.id/berita-kanwil/berita-utama/10444-berani-bangkit-pentas-seni-drama-musical-lpka-tangerang"
         },
         {
             "id": 6,
-            "judul": "Tantowi Yahya Gelar Lelang Lukisan Amal untuk Pahlawan Seni dan Olahraga Indonesia",
-            "gambar": "https://asset.kompas.com/crops/oET24L7l1jLpdmU6lDiSdKm207Q=/0x0:0x0/750x500/data/photo/2023/11/29/6566c76cf33c7.jpeg",
-            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
-            "waktu": "29/11/2023, 12:26 WIB",
+            "judul": "Pentas Duta Seni Kabupaten Blora 2023",
+            "gambar": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGhbP4CMXXASmJEJyq-n03u0MKRVEaXdx0zb9l2dp9YafeV65sHNYlUbCjkW5MgY8_g7_oxnel2Mjr3vxIFlAZlkhYi4Yu3ikhRLdDsHSjYOg-fxLEPvk6UjQh78QbXcki-AzeiAAGFm2yZ9GAho3_Sp5TBIrm6SIvJcQwXpnYKuwmaz9iA-7vqkGCxBg/s728-rw/Seni%20barongan%20Blora%20Risang%20Guntur%20Seto%20(RGS)%20berjudul%20Darma%20Sang%20Amijaya%20akan%20ditampilkan%20di%20TMII%20Anjungan%20Jawa%20Tengah%201%20Oktober%202023.jpeg",
+            "deskripsi":[
+                " Jakarta akan menjadi saksi dari sebuah peristiwa seni yang penuh makna tradisi, yaitu Pentas Duta Seni 2023 Kabupaten Blora yang akan digelar di anjungan Jawa Tengah Taman Mini Indonesia Indah (TMII). Kepala Bidang Kebudayaan Dinas Kepemudaan Olahraga Kebudayaan Pariwisata (Dinporabudpar) Kabupaten Blora, Setyo Pujiono, mewakili Plt. Kepala Dinporabudpar Kabupaten Blora Iwan Setiarso, mengumumkan bahwa acara yang sangat dinantikan ini akan berlangsung pada Minggu, 1 Oktober 2023.",
+                " Pentas seni ini akan memanjakan mata penonton selama 120 menit, dimulai dari jam 10.00 WIB hingga 12.00 WIB. Sorotan utamanya adalah pertunjukan seni barongan Blora Risang Guntur Seto (RGS) berjudul Darma Sang Amijaya. Namun, acara ini tidak hanya tentang seni visual; melainkan akan menjadi perpaduan yang indah antara seni, kisah, dan emosi. Adegan-adegan seperti Untub dan Nayantaka akan diselingi dengan tarian Tayuban yang mempesona. Semua ini adalah penampilan seni yang telah dirancang dengan hati dan cinta pada tradisi Blora."
+                
+            ],
+            "waktu": "01/10/2023, 10:00 WIB",
             "kota": "Jakarta",
-            "sumber": "https://www.kompas.com/hype/read/2023/11/29/122653766/tantowi-yahya-gelar-lelang-lukisan-amal-untuk-pahlawan-seni-dan-olahraga"
+            "sumber": "https://www.bloraweb.com/2023/09/pentas-duta-seni-blora-di-tmii-jakarta-2023.html"
         },
         {
             "id": 7,
-            "judul": "Tantowi Yahya Gelar Lelang Lukisan Amal untuk Pahlawan Seni dan Olahraga Indonesia",
-            "gambar": "https://asset.kompas.com/crops/oET24L7l1jLpdmU6lDiSdKm207Q=/0x0:0x0/750x500/data/photo/2023/11/29/6566c76cf33c7.jpeg",
-            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
-            "waktu": "29/11/2023, 12:26 WIB",
+            "judul": "Pameran Seni Ajak Generasi Muda Gali Potensi Diri",
+            "gambar": "https://akcdn.detik.net.id/community/media/visual/2023/09/09/pameran-seni-ajak-generasi-muda-gali-potensi-diri-1_169.jpeg?w=700&q=90",
+            "deskripsi":[
+                " Dalam rangka merayakan HUT ke 165, Sekolah Santa Ursula menggelar beragam kegiatan. Salah satunya pentas seni hingga Sanur Open Campus.",
+                " Selain itu juga ada Sanur Open Campus. Acara ini akan diselenggarakan selama 2 hari dan berakhir pada Minggu, 10 September 2023. Open Campus 165 Tahun Sekolah Santa Ursula Jakarta akan mengangkat judul KINARSA yang merupakan sebuah akronim dari frasa bahasa Inggris, yakni Keen Exploration on Indonesia’s Rising Potential atau dalam bahasa Indonesia berarti Mendalami Eksplorasi Potensi Baru Indonesia."
+            ],
+            "waktu": "09/09/2023, 15:46 WIB",
             "kota": "Jakarta",
-            "sumber": "https://www.kompas.com/hype/read/2023/11/29/122653766/tantowi-yahya-gelar-lelang-lukisan-amal-untuk-pahlawan-seni-dan-olahraga"
+            "sumber": "https://www.detik.com/edu/foto/d-6922364/pameran-seni-ajak-generasi-muda-gali-potensi-diri/4"
         },
         {
             "id": 8,
-            "judul": "Tantowi Yahya Gelar Lelang Lukisan Amal untuk Pahlawan Seni dan Olahraga Indonesia",
-            "gambar": "https://asset.kompas.com/crops/oET24L7l1jLpdmU6lDiSdKm207Q=/0x0:0x0/750x500/data/photo/2023/11/29/6566c76cf33c7.jpeg",
-            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
-            "waktu": "29/11/2023, 12:26 WIB",
-            "kota": "Jakarta",
-            "sumber": "https://www.kompas.com/hype/read/2023/11/29/122653766/tantowi-yahya-gelar-lelang-lukisan-amal-untuk-pahlawan-seni-dan-olahraga"
+            "judul": "Kontribusi Pameran Seni terhadap Pariwisata",
+            "gambar": "https://asset.kompas.com/crops/L_3iL1f6bNuz2agdA5SFMCFJ9ME=/0x0:0x0/750x500/data/photo/2023/11/17/65575e000f9e6.jpg",
+            "deskripsi":[
+                " Perhelatan atau event di Indonesia dapat memberikan dampak positif bagi sektor pariwisata, termasuk pameran seni.  Menteri Pariwisata dan Ekonomi Kreatif (Menparekraf) Sandiaga Uno mengatakan, meski kuantitas pameran seni dari total keseluruhan event yang ada masih kecil, dampaknya bagi ekonomi dan pariwisata cukup tinggi.",
+                " Dari total 3.000 event, mungkin eksibisi seni di bawah 10 persen, tapi dampaknya di atas 20 persen, kata Menparekraf saat ditemui usai Weekly Press Briefing di Jakarta Pusat, Senin (20/11/2023).  Salah satu contoh, lanjut dia, adalah bursa seni internasional Art Jakarta 2023 yang diadakan dari Jumat (17/11/2023) sampai Minggu (19/11/2023) lalu di JIExpo Kemayoran, Jakarta Utara.  Sandiaga menilai, perhelatan besar semacam Art Jakarta bisa menampilkan produk seni dan budaya Indonesia ke pentas dunia. Dengan demikian, dapat dikatakan sebagai bagian dari pariwisata dan ekonomi kreatif yang berkualitas.",
+                " Jika untuk event atau kunjungan wisata biasa, tambahnya, rata-rata per orang dihitung mengeluarkan 1.000-1.5000 dollar Amerika Serikat (sekitar Rp 15 juta-Rp 23 juta) per pax maka untuk event seni angkanya bisa mencapai lebih dari 5.000 dollar Amerika Serikat (sekitar Rp 77 juta) per pax. Angka ini berasal dari belanja para kolektor seni yang bernilai tinggi."
+            ],
+            "waktu": "17/11/2023, 10:30 WIB",
+            "kota": "Jakarta Utara",
+            "sumber": "https://travel.kompas.com/read/2023/11/22/102945127/kontribusi-pameran-seni-terhadap-pariwisata-bisa-di-atas-20-persen"
         },
         {
             "id": 9,
-            "judul": "Tantowi Yahya Gelar Lelang Lukisan Amal untuk Pahlawan Seni dan Olahraga Indonesia",
-            "gambar": "https://asset.kompas.com/crops/oET24L7l1jLpdmU6lDiSdKm207Q=/0x0:0x0/750x500/data/photo/2023/11/29/6566c76cf33c7.jpeg",
-            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
-            "waktu": "29/11/2023, 12:26 WIB",
-            "kota": "Jakarta",
-            "sumber": "https://www.kompas.com/hype/read/2023/11/29/122653766/tantowi-yahya-gelar-lelang-lukisan-amal-untuk-pahlawan-seni-dan-olahraga"
+            "judul": "Pagelaran Kesenian Betawi",
+            "gambar": "https://asset.kompas.com/crops/n57YHrVlvQftk89l0ltiEjfHmJA=/0x0:1000x667/750x500/data/photo/2023/11/17/65570688955b7.jpg",
+            "deskripsi":[
+                " Jika ingin mengenal lebih dekat budaya Betawi, maka event ini cocok buat kamu. Berdasarkan informasi dari situs Setu Babakan, event Pagelaran Kesenian Betawi-Workshop Budaya Betawi, akan digelar pada Sabtu (18/11/2023) besok.",
+                " Tepatnya pada pukul 10.00 WIB hingga 17.30 WIB. Pengunjung bisa menyaksikan tarian kreasi, musik gambus, topeng blantek, rebana hadroh, lenong denes, dan tarian tradisional.",
+                " Jika ingin menyaksikan event Pagelaran Kesenian Betawi-Workshop Budaya Betawi, kamu bisa mengunjungi Perkampungan Budaya Betawi Setu Babakan, yang berlokasi di Jalan RM. Kahfi II, Srengseng Sawah, Jagakarsa, Jakarta Selatan."
+            ],
+            "waktu":"18/11/2023, 10:00 WIB",
+            "kota":"Jakarta",
+            "sumber": "https://travel.kompas.com/read/2023/11/17/154000627/6-event-di-jakarta-akhir-pekan-ini-ada-one-piece-exhibition-asia-tour"
         },
         {
             "id": 10,
-            "judul": "Tantowi Yahya Gelar Lelang Lukisan Amal untuk Pahlawan Seni dan Olahraga Indonesia",
-            "gambar": "https://asset.kompas.com/crops/oET24L7l1jLpdmU6lDiSdKm207Q=/0x0:0x0/750x500/data/photo/2023/11/29/6566c76cf33c7.jpeg",
-            "deskripsi": "orem ipsum dolor sit amet consectetur adipisicing elit. Optio ab nam voluptate eum accusantium nemo inventore cupiditate illum provident necessitatibus minima corporis nisi dolore unde maxime, dolorum ratione fugit. Aliquam nihil aut eaque mollitia sunt, cupiditate deleniti excepturi quia at quos dolore maiores unde sequi praesentium dolor architecto harum consectetur. Corrupti aut natus provident nulla adipisci amet laudantium suscipit tenetur impedit labore dolore, temporibus maiores consequuntur iste sit id eveniet vitae explicabo maxime! Magnam aperiam inventore recusandae ut iure asperiores reiciendis aut doloribus dolorum distinctio! Reiciendis",
-            "waktu": "29/11/2023, 12:26 WIB",
+            "judul": "Bentara Budaya Jakarta Gelar Pameran Seni di Menara Kompas",
+            "gambar": "https://asset.kompas.com/crops/V5v2VheAoDSrB7fp4QTiaqtMI_s=/0x0:0x0/750x500/data/photo/2023/10/13/652918ce83e5f.jpeg",
+            "deskripsi":[
+                "Bentara Budaya Jakarta menggelar pameran seni Bentara Budaya Art Gallery di lantai delapan gedung Menara Kompas, Jakarta Pusat, sampai Jumat (20/10/2023)",
+                "Pada pameran ini Bentara Budaya Jakarta mengangkat tema Manusia Indonesia dalam Lukisan, sebagai bentuk menunjukkan keberagaman bangsa Indonesia.",
+                " Lukisan ini menunjukkan keberagaman wajah masyarakat Indonesia, dengan keberagaman ini ditampakkan bahwa kita bisa hidup berdampingan, aman, rukun, dan menjunjung bhineka tunggal ika,terang General Manager Bentara Budaya, sekaligus Communication Management, Corporate Communicatuon Kompas Gramedia Ilham Khoiri di lokasi."
+            ],
+            "waktu": "13/10/2023, 07:18 WIB",
             "kota": "Jakarta",
-            "sumber": "https://www.kompas.com/hype/read/2023/11/29/122653766/tantowi-yahya-gelar-lelang-lukisan-amal-untuk-pahlawan-seni-dan-olahraga"
+            "sumber":"https://travel.kompas.com/read/2023/10/14/071800827/bentara-budaya-jakarta-gelar-pameran-seni-di-menara-kompas"
+        },
+        {
+            "id": 11,
+            "judul": "Hyatt Regency Yogyakarta Hadirkan Pameran Seni Rupa untuk Peringati Sumpah Pemuda",
+            "gambar": "https://media.suara.com/pictures/original/2021/10/28/20577-tamu-menikmati-pameran-seni-rupa-manggala-istimewahyatt-regencyyogyakarta.jpg",
+            "deskripsi":[
+                " Sebagai salah satu hotel ternama di Yogyakarta. Hyatt Regency tak pernah lelah menyajikan acara berkualitas untuk para tamu. Kali ini Hyatt Regency menghadirkan pameran seni kontemporer.",
+                " Hyatt Regency Yogyakarta menggandeng Royal House Cultural Activities untuk gelaran pameran seni ini. Royal House Cultural Activities sendiri rutin mengadakan kegiatan seni budaya di Yogyakarta.",
+                " Pameran ini bertajuk Manggala, yang dalam bahasa Jawa berarti seorang pahlawan atau senopati. Nama Manggala dipakai sebagai tema pameran untuk memaknai semangat kepahlawanan pada Hari Sumpah Pemuda tanggal 28 Oktober dan Hari Pahlawan Nasional tanggal 10 November mendatang.",
+                " Semangat kepahlawanan tidak hanya digambarkan sebagai perjuangan melawan penjajah sebelum kemerdekaan, namun juga diartikan sebagai pahlawan di kehidupan sehari-hari yang memberi manfaat bagi kehidupan orang banyak. Tema ini dimaknai dan dituangkan dalam karya seni oleh para perupa yang terlibat dalam pameran ini.",
+                " Terdapat 21 seniman asal Yogyakarta dan sekitarnya yang memamerkan karya seninya. Seniman tersebut antara lain Sigit Raharjo, Choerodin Roadyn, Muji Harjo, Endro Banyu, Suhardi, Catur Hengky Koesworo, Barlin Srikaton, dan masih banyak lagi."
+            ],
+            "waktu": "28/10/2021, 15:58 WIB",
+            "kota": "Yogyakarta",
+            "sumber": "https://jogja.suara.com/read/2021/10/28/155843/hyatt-regency-yogyakarta-hadirkan-pameran-seni-rupa-untuk-peringati-sumpah-pemuda"
+        },
+        {
+            "id": 12,
+            "judul": "Kelompok Ambari dari Alumni ITB Gelar Pameran Prismeu di Galeri Orbital Dago Bandung",
+            "gambar": "https://statik.tempo.co/data/2023/09/04/id_1233902/1233902_720.jpg",
+            "deskripsi":[
+                " Kelompok Ambari menggelar pameran seni rupa di Galeri Orbital Dago Bandung sejak 30 Agustus hingga 17 September 2023. Sebanyak sembilan orang seniman anggotanya masing-masing menampilkan karya dengan balutan tajuk Prismeu.",
+                " Karya yang ditampilkan perwujudan dari benda atau alam sekitar yang nyata di keseharian. Selain Ismet, anggota kelompok Ambari yaitu Andy Dwi Tjahyono, Ibnu Pratomo, Indra Widiyanto, Julius Setiawan, Septian Harriyoga, Syahfadil Kurniawan, Syarief Munawar, dan Yustinus Ardhitya. Kelompok yang dibentuk sejak 1998 itu awalnya beranggotakan mahasiswa Studio Lukis Fakultas Seni Rupa dan Desain Institut Teknologi Bandung angkatan 1997 lalu berkembang dari berbagai studio dan lintas angkatan serta dari luar ITB."
+            ],
+            "waktu": "30/08/2023, 12:37 WIB",
+            "kota": "Bandung",
+            "sumber": "https://seleb.tempo.co/read/1767827/kelompok-ambari-dari-alumni-itb-gelar-pameran-prismeu-di-galeri-orbital-dago-bandung"
+        },
+        {
+            "id": 13,
+            "judul": "Fenomena Alam dan Sosial di Pameran Tunggal Iwan Suastika",
+            "gambar": "https://statik.tempo.co/data/2023/08/20/id_1229651/1229651_720.jpg",
+            "deskripsi":[
+                " Pameran tunggal perupa Iwan Suastika bertajuk The Man Who Carried A Mountain digelar di D Gallerie sejak Sabtu, 12 Agustus hingga Selasa, 12 September 2023. Pameran seni rupa ini menyajikan fenomena perubahan lingkungan alam dan sosial yang kian antroposentrik.",
+                " Iwan Suastika menampilkan sosok manusia beserta kehidupan non-manusia di planet Bumi. Sosok manusia tengah digambarkan di antara fenomena dan tantangan ephemeral terjadi di zaman ini. Perubahan iklim, kerusakan alam, bencana alam, tantangan kesehatan serta budaya paska manusia yang tidak terhindarkan lagi. Kehadiran sosok manusia digambarkan berada pada puncak peradaban, sementara entitas non-manusia lainnya berada pada orbit peradaban manusia. Konsekuensinya manusia wajib memikul tanggung jawab besar yang bersumber dari hasratnya sendiri. Sekaligus untuk membatasi ambisinya yang mungkin belum disadarinya Hasrat antroposentrik, ungkap Iwan dikutip dari siaran pers, Minggu, 20 Agustus 2023.",
+                " Pendiri dan pemilik dari D Gallerie Indira Esti Nurjadin mengungkapkan Iwan Suastika menyajikan sikapnya sebagai generasi yang mewakili zaman ini, di mana perubahan alam yang terjadi secara global. The Man who Carried a Mountain adalah lawatan duka ekologis yang disajikan dengan corak surealistik berbalutkan imajinasi metaforis di atas kanvas dan karya patung yang digarap Iwan Suastika sepanjang tahun 2022 hingga pertengahan 2023. Alam hayati dihadirkan berevolusi dalam fitur-fitur imajinatif secara tragis dan paradoksal. Karya-karya ini seraya ingin menggulirkan pertanyaan di ruang publik dan menggugah kita bersama Apa yang akan kita wariskan kepada generasi selanjutnya? Sekaligus membangun diskusi bersama tentang nilai-nilai kemanusiaan yang sejati dengan perubahan alam yang berkelindan pada nilai sosial, kebudayaan bahkan politik yang tidak terhindarkan ini."
+            ],
+            "waktu": "12/08/2023, 11:00 WIB",
+            "kota": "Jakarta",
+            "sumber": "https://seleb.tempo.co/read/1761898/fenomena-alam-dan-sosial-di-pameran-tunggal-iwan-suastika"
+        },
+        {
+            "id": 14,
+            "judul": "Belasan Seniman Gen Z dari 3 Kampus di Bandung Gelar Pameran Seni Rupa Equivocal",
+            "gambar":"https://statik.tempo.co/data/2023/10/15/id_1245564/1245564_720.jpg",
+            "deskripsi":[
+                " Pameran seni rupa berjudul Equivocal di Galeri Pusat Kebudayaan di Bandung, 15-30 Oktober 2023, menampilkan keragaman karya 15 seniman muda dari Generasi Z. Mereka berasal dari tiga kampus yaitu Institut Teknologi Bandung, Universitas Pendidikan Indonesia, serta Institut Seni Budaya Indonesia atau ISBI Bandung.",
+                " Ruang pameran terisi oleh karya digital art, seni instalasi, gambar atau drawing, lukisan, seni grafis, patung, juga performance art. Peserta pameran yaitu Ruth Adelyne, Michele  Jovite, Renitta, Agira Tama, Inggita Kanya dan Krisna Julian, Karyana Tri Utama, Fatih Jagad Raya, M Nashrul, Bams, Tsabita Aqdimah, Farhan, Galih, Fahira, Angelica, Anggita. Kuratornya adalah Revaleka, Qanessa, dan Dwaji.",
+                " Karya berjudul 'Meandering Around II & III' buatan Agira Tama menyajikan semacam meja-meja kecil berkaki pendek dan berbentuk lingkaran. Pada bagian atasnya yang digambari seperti peta wilayah, karya itu ingin mempertanyakan kembali mengenai makna tempat tinggal. Sementara Anggita Ayu Anjani mengekspresikan kompleksitas cara berpikir dan perasaan yang bersumber dari masa lampau dan sekarang lewat lukisan kuda lumping berjudul 'Satisaya'."
+            ],
+            "waktu": "15/10/2023, 08:00 WIB",
+            "kota": "Bandung",
+            "sumber": "https://seleb.tempo.co/read/1784290/belasan-seniman-gen-z-dari-3-kampus-di-bandung-gelar-pameran-seni-rupa-equivocal"
         }
+
     ]
+    
 }

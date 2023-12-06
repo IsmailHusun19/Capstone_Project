@@ -1,5 +1,7 @@
 import DataSource from '../../config/dataResource.js';
 import dataEndPoint from '../../config/dataEndPoint.js';
+import detailArtikel from '../detailArtikel/detailArtikel.js';
+import elementArtikel from './elementItemArtikel.js';
 
 const itemArtikel = () => {
   const boxItem = document.querySelector('.item-artikel');
@@ -8,17 +10,13 @@ const itemArtikel = () => {
     .then((data) => {
       const allTeam = data.Artikel;
       allTeam.forEach((items) => {
-        boxItem.innerHTML += `<div class="box-item-artikel">
-        <div class="gambar-item-artikel"><img src="${items.gambar}" alt=""></div>
-        <div class="keterangan-artikel">
-            <div class="judul-item-artikel"><h2>${items.judul}</h2></div>
-            <div class="keterangan-item-artikel"><p>${items.deskripsi}</p></div>
-        </div>
-        <div class="keterangan-lain">
-            <p>${items.kota}</p>
-            <p><span>${items.waktu}</span></p>
-        </div>
-    </div>`;
+        const newItem = document.createElement('div');
+        newItem.classList.add('box-item-artikel');
+        newItem.onclick = () => {
+          window.location.hash = `#detailArtikel/${items.id}`;
+          detailArtikel();
+        };
+        elementArtikel(boxItem, items, newItem);
       });
     });
 };
