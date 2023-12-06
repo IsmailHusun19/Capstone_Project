@@ -293,6 +293,8 @@
     }
     .container-login-daftar {
         width: 100%;
+        height: 800px;
+        background-color: #ff5857;
     }
     .container-box-login-daftar {
         flex-direction: column-reverse;
