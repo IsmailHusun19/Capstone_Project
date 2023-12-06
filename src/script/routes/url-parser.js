@@ -1,9 +1,14 @@
-import beranda from '../page/beranda/beranda.js';
+import beranda from '../page/beranda/beranda';
+import kegiatan from '../page/kegiatan/kegiatan';
 import artikel from '../page/artikel/artikel.js';
+import detailArtikel from '../page/detailArtikel/detailArtikel';
+import formKegiatanSeni from '../page/kegiatan/formKegiatanSeni';
+import detail from '../page/detailKegiatanSeni/detailKegiatanSeni';
 import aboutUs from '../page/about-us/about-us.js';
+import galeri from '../page/galeri/galeri';
+import formGaleri from '../page/galeri/formGaleri';
 import login from '../page/login/login.js';
 import daftar from '../page/daftar/daftar.js';
-import detail from '../page/detail/detailKegiatanSeni.js';
 
 const URL = () => {
   function handleRoute() {
@@ -13,20 +18,32 @@ const URL = () => {
       case '':
         beranda();
         break;
-      case '#home':
-        console.log('Anda berada di halaman utama');
+      case '#beranda':
         beranda();
+        console.log('Anda berada di halaman utama');
+        break;
+      case '#kegiatan':
+        kegiatan();
+        break;
+      case '#formKegiatanSeni':
+        formKegiatanSeni();
         break;
       case '#artikel':
-        console.log('Anda berada di halaman tentang kami');
         artikel();
         break;
+      case window.location.hash.startsWith('#detailArtikel'):
+        detailArtikel();
+        break;
       case '#about-us':
-        console.log('Anda berada di halaman kontak');
         aboutUs();
         break;
+      case '#galeri':
+        galeri();
+        break;
+      case '#formGaleri':
+        formGaleri();
+        break;
       case '#login':
-        console.log('Anda berada di halaman kontak');
         login();
         break;
       case '#daftar':
@@ -37,6 +54,13 @@ const URL = () => {
         break;
       default:
         console.log('Halaman tidak ditemukan');
+        break;
+    }
+    switch (true) {
+      case window.location.hash.includes('#detailArtikel'):
+        detailArtikel();
+        break;
+      default:
         break;
     }
   }

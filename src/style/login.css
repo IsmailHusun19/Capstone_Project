@@ -9,13 +9,12 @@
 
 
 .container-login-daftar {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     padding-top: 110px;
     padding-bottom: 40px;
     display: flex;
     justify-content: space-between;
-    max-width: 1000px;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -23,6 +22,7 @@
 }
 
 .container-box-login-daftar {
+    /* width: 80%; */
     display: flex;
     align-items: center;
     justify-content: center;

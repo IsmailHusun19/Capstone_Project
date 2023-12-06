@@ -22,7 +22,7 @@ const login = () => {
             </div>
             <div class="gambar-login-daftar" id="#form-login">
                 <div class="container-gambar-login-daftar">
-                    <div class="box-1"><img src="../../../src/public/aset/login-section/Hobbies.png" alt=""></div>
+                    <div class="box-1"><img src="../../../../src/public/aset/login-section/Hobbies.png" alt=""></div>
                 </div>
             </div>
         </div>

@@ -30,6 +30,9 @@
         "no-shadow": 0,
         "prefer-const": 0,
         "comma-dangle": 0,
-        "import/no-named-as-default-member": 0
+        "import/no-named-as-default-member": 0,
+        "eqeqeq": 0,
+        "no-inner-declarations": 0,
+        "max-len": 0
     }
 }
