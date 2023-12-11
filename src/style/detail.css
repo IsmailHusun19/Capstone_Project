@@ -93,6 +93,8 @@ nav ul .login a:hover {
     width: 100%;
     min-width: 420px;
     min-height: 300px;
+    max-width: 600px;
+    max-height: 400px;
     border-radius: 10px;
 }
 

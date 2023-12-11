@@ -1,6 +1,10 @@
 import detail from '../detailKegiatanSeni/detailKegiatanSeni.js';
 
 const elementItem = (element) => {
+  const dateString = element.tanggal;
+  const dateObj = new Date(dateString);
+  const options = { year: 'numeric', month: 'long', day: 'numeric' };
+  const formattedDate = dateObj.toLocaleDateString('id-ID', options);
   const item = document.createElement('div');
   const boxKegiatan = document.querySelector('.box-kegiatan');
   item.classList.add('item-kegiatan');
@@ -11,7 +15,7 @@ const elementItem = (element) => {
   const imageKegiatan = document.createElement('div');
   imageKegiatan.classList.add('image-kegiatan');
   const gambar = document.createElement('img');
-  gambar.src = element.gambar;
+  gambar.src = element.gambar_kegiatan;
   gambar.alt = '';
   imageKegiatan.appendChild(gambar);
   const keteranganKegiatan = document.createElement('div');
@@ -28,14 +32,14 @@ const elementItem = (element) => {
   const deskripsi = document.createElement('div');
   deskripsi.classList.add('deskripsi');
   const deskripsiText = document.createElement('p');
-  deskripsiText.textContent = element.deskripsi;
+  deskripsiText.textContent = element.description;
   deskripsi.appendChild(deskripsiText);
   const tanggal = document.createElement('div');
   tanggal.classList.add('tanggal');
   const tanggalText = document.createElement('p');
-  tanggalText.textContent = element.tanggal;
+  tanggalText.textContent = formattedDate;
   const pukulText = document.createElement('p');
-  pukulText.textContent = element.pukul;
+  pukulText.textContent = `${element.waktu} WIB`;
   tanggal.appendChild(tanggalText);
   tanggal.appendChild(pukulText);
   lokasiWaktuKegiatan.appendChild(deskripsi);

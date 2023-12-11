@@ -216,6 +216,7 @@ article h1.jadwal {
     box-shadow: 0px 0px 2px black;
     border-radius: 5px;
     margin: 0 auto;
+    cursor: pointer;
 }
 
 .box-kegiatan .image-kegiatan {
@@ -262,6 +263,7 @@ article h1.jadwal {
 .lokasi-waktu-kegiatan .lokasi, .lokasi-waktu-kegiatan .pukul, .lokasi-waktu-kegiatan .tanggal  {
     display: flex;
     justify-content: space-between;
+    gap: 10px;
 
 }
 

@@ -72,6 +72,7 @@ header.header {
 .judul-galeri h2 {
   color: #FFFFFF;
   font-size: 17px;
+  margin: 0;
 }
 
 .tambah-galeri {
@@ -115,97 +116,6 @@ header.header {
 .item-galeri img:hover{
     transform: scale(1.02);
 }
-
-
-.container-modal-box-galeri {
-    width: 90%;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding-top: 30px;
-    scale: 0;
-}
-
-.container-modal-box-galeri-aktif {
-    scale: 1;
-}
-
-.modal-box-galeri {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 1px 1px 7px black;
-    padding: 10px;
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    position: relative;
-    transform: scale(0);
-}
-
-.modal-box-aktif{
-    width: 80%;
-    max-width: 1280px;
-    height: max-content;
-    padding: 10px;
-    transform: scale(1);
-    transition: all ease-in-out .25s;
-}
-
-.gambar-modal-box {
-    width: 50%;
-}
-
-.gambar-modal-box img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.keterangan-modal-box {
-    width: 50%;
-}
-
-.keterangan-modal-box h1 {
-    font-size: 20px;
-}
-
-.keterangan-modal-box h1 span {
-    width: 100px;
-}
-
-.keterangan-modal-box .pecipta-karya {
-    display: flex;
-    gap: 10px;
-}
-
-.keterangan-modal-box button {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    width: 150px;
-    height: 35px;
-    background-color: #f14f4f;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 5px;
-    font-weight: 500;
-    font-size: 15px;
-    transition: all ease-in-out .25s;
-}
-
-.keterangan-modal-box button:hover {
-    background-color: #f55d5d;
-    color: #2e2e2e;
-}
-
-
-
-
-
-
 
 
 @media screen and (max-width: 1200px){

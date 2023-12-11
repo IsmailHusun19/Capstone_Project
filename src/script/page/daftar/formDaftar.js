@@ -1,3 +1,5 @@
+import fungsiDaftar from './fungsiDaftar';
+
 const formDaftar = () => {
   const form = document.querySelector('.form-login');
   form.innerHTML = `
@@ -43,6 +45,7 @@ const formDaftar = () => {
             <p class="facebook"> <img id="img-daftar" src="../../../src/public/aset/login-section/facebook.png" alt=""><a href="">Login dengan <span>Facebook</span></a></p>
         </div>
     </form>`;
+  fungsiDaftar();
 };
 
 export default formDaftar;

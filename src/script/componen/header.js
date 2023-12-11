@@ -10,7 +10,7 @@ const header = () => {
                 <li><a href="#kegiatan">Kegiatan</a></li>
                 <li><a href="#galeri">Galeri</a></li>
                 <li><a class='artikel' href="#artikel">Artikel</a></li>
-                <li><a href="#about-us">Tentang Kami</a></li>
+                <li><a href="#tentangKami">Tentang Kami</a></li>
                 <li><a href="#daftar">Daftar</a></li>
                 <li class="login"><a href="#login">Masuk</a></li>
             </ul>

@@ -1,6 +1,4 @@
 import risetPages from '../../utils/risetPage';
-import elementModalBoxGaleri from './elementModalBox';
-import modalBoxGaleri from './modalBoxGaleri';
 import itemsGaleri from './itemsGaleri';
 
 const galeri = () => {
@@ -18,9 +16,7 @@ const galeri = () => {
         <div class="container-modal-box-galeri"></div>
     </div>`;
   risetPages();
-  elementModalBoxGaleri();
   itemsGaleri();
-  modalBoxGaleri();
 };
 
 export default galeri;

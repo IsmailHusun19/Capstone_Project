@@ -16,6 +16,7 @@ import '../src/style/galeri.css';
 import '../src/style/profile.css';
 import '../src/style/artikelDetail.css';
 import '../src/style/responsive.css';
+import './vendor';
 
 header();
 footer();

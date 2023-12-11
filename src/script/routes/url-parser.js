@@ -6,6 +6,7 @@ import formKegiatanSeni from '../page/kegiatan/formKegiatanSeni';
 import detail from '../page/detailKegiatanSeni/detailKegiatanSeni';
 import aboutUs from '../page/about-us/about-us.js';
 import galeri from '../page/galeri/galeri';
+import detailGaleri from '../page/galeri/detailGaleri';
 import formGaleri from '../page/galeri/formGaleri';
 import login from '../page/login/login.js';
 import daftar from '../page/daftar/daftar.js';
@@ -20,7 +21,6 @@ const URL = () => {
         break;
       case '#beranda':
         beranda();
-        console.log('Anda berada di halaman utama');
         break;
       case '#kegiatan':
         kegiatan();
@@ -31,10 +31,10 @@ const URL = () => {
       case '#artikel':
         artikel();
         break;
-      case window.location.hash.startsWith('#detailArtikel'):
+      case '#detailArtikel':
         detailArtikel();
         break;
-      case '#about-us':
+      case '#tentangKami':
         aboutUs();
         break;
       case '#galeri':
@@ -53,12 +53,17 @@ const URL = () => {
         detail();
         break;
       default:
-        console.log('Halaman tidak ditemukan');
         break;
     }
     switch (true) {
       case window.location.hash.includes('#detailArtikel'):
         detailArtikel();
+        break;
+      case window.location.hash.includes('#detailKegiatanSeni'):
+        detail();
+        break;
+      case window.location.hash.includes('#detailGaleri'):
+        detailGaleri();
         break;
       default:
         break;
