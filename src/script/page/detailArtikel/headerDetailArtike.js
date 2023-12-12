@@ -6,19 +6,19 @@ const headerDetailArtikel = (id) => {
   DataSource.getItmes(dataEndPoint.ARTIKEL)
     .then((response) => response.json())
     .then((data) => {
-      const allTeam = data.Artikel[id];
+      const item = data.Artikel[id];
       headerDetail.innerHTML = `<div class="box-1-1-detail-artikel"></div>
         <div class="box-1-2-detail-artikel"></div>
         <div class="box-1-3-detail-artikel">
             <div class="judul-detail-artikel">
                 <div class="judul-detail-artikel-2">
-                    <h1>${allTeam.judul}</h1>
+                    <h1>${item.judul}</h1>
                 </div>
             </div>
-            <div class="gambar-detail-artikel"><img src="${allTeam.gambar}" alt=""></div>
+            <div class="gambar-detail-artikel"><img src="${item.gambar}" alt=""></div>
             <div class="kota-tanggal-detail-artikel">
-                <p>${allTeam.kota}</p>
-                <p>${allTeam.waktu}</p>
+                <p>${item.kota}</p>
+                <p>${item.waktu}</p>
             </div>
         </div>`;
     });

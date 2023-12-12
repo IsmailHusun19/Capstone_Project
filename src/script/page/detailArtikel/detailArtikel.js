@@ -19,7 +19,6 @@ const detailArtikel = () => {
     </div>
 </div>`;
   const id = window.location.hash.split('/').pop();
-  console.log(id);
   headerDetailArtikel(id);
   contentArtikelDetail(id);
   itemDetailArtikel();

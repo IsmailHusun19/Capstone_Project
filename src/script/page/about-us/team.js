@@ -18,7 +18,7 @@ const team = () => {
                 <img src="${items.gambar}" alt="">
             </div>
             <div class="about-profile">
-                <div class="detail-profile">
+                <div class="detail-profile" style="height:max-content; display: block;">
                     <h2>${items.nama} <br><span>${items.role}</span></h2>
                     <p>${items.univ}</p>
                     <div class="actionBtn">

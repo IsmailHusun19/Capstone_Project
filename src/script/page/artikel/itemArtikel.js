@@ -8,8 +8,8 @@ const itemArtikel = () => {
   DataSource.getItmes(dataEndPoint.ARTIKEL)
     .then((response) => response.json())
     .then((data) => {
-      const allTeam = data.Artikel;
-      allTeam.forEach((items) => {
+      const dataItems = data.Artikel;
+      dataItems.forEach((items) => {
         const newItem = document.createElement('div');
         newItem.classList.add('box-item-artikel');
         newItem.onclick = () => {

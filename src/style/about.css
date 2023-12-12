@@ -23,6 +23,9 @@
 
 .desc-picture img {
     width: 100%;
+    padding-right: 20px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
 }
 
 h1.judulTentangKami {

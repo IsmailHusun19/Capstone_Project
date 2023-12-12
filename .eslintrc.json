@@ -33,6 +33,8 @@
         "import/no-named-as-default-member": 0,
         "eqeqeq": 0,
         "no-inner-declarations": 0,
-        "max-len": 0
+        "max-len": 0,
+        "no-param-reassign": 0,
+        "no-unreachable ": 0
     }
 }

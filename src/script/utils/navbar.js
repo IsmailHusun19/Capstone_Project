@@ -3,8 +3,13 @@ const navBar = () => {
   const navbarToggler = document.querySelector('.fa-bars');
 
   navbarToggler.addEventListener('click', () => {
-    navbar.classList.toggle('active');
-    navbarToggler.classList.toggle('fa-bars-staggered');
+    if (!navbar.classList.contains('active')) {
+      navbar.classList.add('active');
+      navbarToggler.classList.add('fa-bars-staggered');
+    } else {
+      navbar.classList.remove('active');
+      navbarToggler.classList.remove('fa-bars-staggered');
+    }
   });
 
   document.addEventListener('click', (event) => {

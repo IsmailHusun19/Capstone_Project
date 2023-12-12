@@ -18,16 +18,19 @@ const footer = () => {
                         Menu
                     </h6>
                     <p>
-                        <a href="#!" class="text-reset">Beranda</a>
+                        <a href="#beranda" class="text-reset">Beranda</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Kegiatan</a>
+                        <a href="#kegiatan" class="text-reset">Kegiatan</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Artikel</a>
+                        <a href="#gallery" class="text-reset">Gallery</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Tentang Kami</a>
+                        <a href="#artikel" class="text-reset">Artikel</a>
+                    </p>
+                    <p>
+                        <a href="#tentangKami" class="text-reset">Tentang Kami</a>
                     </p>
                 </div>
                 <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">

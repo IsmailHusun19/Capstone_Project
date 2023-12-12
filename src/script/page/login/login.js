@@ -15,8 +15,8 @@ const login = () => {
                 <div class="form-login">
                     <form action=""></form>
                     <div class="login-with">
-                        <p class="google"><img src="../../../src/public/aset/login-section/google.png" alt=""><a href="">Login dengan <span>Google</span></a></p>
-                        <p class="facebook"> <img src="../../../src/public/aset/login-section/facebook.png" alt=""><a href="">Login dengan <span>Facebook</span></a></p>
+                        <p class="google"><img src="../../../src/public/aset/login-section/google.png" alt=""><a href="?#login">Login dengan <span>Google</span></a></p>
+                        <p class="facebook"> <img src="../../../src/public/aset/login-section/facebook.png" alt=""><a href="?#login">Login dengan <span>Facebook</span></a></p>
                     </div>
                 </div>
             </div>
