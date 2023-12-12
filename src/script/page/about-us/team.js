@@ -22,9 +22,9 @@ const team = () => {
                     <h2>${items.nama} <br><span>${items.role}</span></h2>
                     <p>${items.univ}</p>
                     <div class="actionBtn">
-                        <a href="${items.linked}"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="${items.instaggram}"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="${items.github}"><i class="fa-brands fa-github"></i></a>
+                        <a href="${items.linked}" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="${items.instagram}" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="${items.github}" target="_blank"><i class="fa-brands fa-github"></i></a>
                     </div>
                 </div>
             </div>
