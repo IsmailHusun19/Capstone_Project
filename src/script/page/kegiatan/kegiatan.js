@@ -1,6 +1,5 @@
 import kegiatanSeni from './itemKegiatan';
 import elementKegiatan from './elementKegiatan';
-import navbar from '../../utils/navbar';
 import authKegiatan from '../../utils/authKegiatan';
 
 const kegiatan = () => {
@@ -20,7 +19,6 @@ const kegiatan = () => {
     </div>`;
   kegiatanSeni();
   elementKegiatan();
-  navbar();
   authKegiatan();
 };
 
