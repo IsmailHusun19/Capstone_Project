@@ -1,3 +1,5 @@
+import navBar from '../../utils/navbar';
+
 const elementKegiatan = () => {
   window.scrollTo({
     top: 0,
@@ -26,6 +28,7 @@ const elementKegiatan = () => {
       <button id="search">Cari</button>
     </div>`;
   }
+  navBar();
 };
 
 export default elementKegiatan;

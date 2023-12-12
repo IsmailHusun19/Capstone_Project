@@ -18,7 +18,7 @@ const fungsiFormGaleri = () => {
     formData.append('gambar_gallery', gambar);
 
     try {
-      const response = await fetch('http://localhost:3000/gallery', {
+      const response = await fetch('https://dokumentasi.pentas-seniid.my.id/gallery', {
         method: 'POST',
         body: formData
       });
@@ -31,7 +31,7 @@ const fungsiFormGaleri = () => {
           icon: 'success',
           button: 'OK'
         }).then(() => {
-          window.location.href = '/#galeri';
+          window.location.href = '/#gallery';
         });
       } else {
         throw new Error('Gagal melakukan POST');

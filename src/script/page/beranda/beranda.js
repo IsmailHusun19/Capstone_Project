@@ -2,7 +2,8 @@ import risetPages from '../../utils/risetPage';
 
 const beranda = () => {
   const projectBeranda = document.querySelector('.content-project');
-  projectBeranda.innerHTML = `            <div class="container-beranda">
+  projectBeranda.innerHTML = `
+   <div class="container-beranda">
     <div class="beranda-header">
         <div class="judul-beranda">
             <h1>Pentas Seni Indonesia</h1>
@@ -32,7 +33,7 @@ const beranda = () => {
             </div>
         </div>
         <div class="judul-box-beranda-2">
-            <h1>📅Angenda Seni</h1>
+            <h1>📅Agenda Seni</h1>
             <div class="box-3-beranda">
                 <div class="box-beranda-3-item">
                     <div class="box-2-1-beranda"><p>Temukan acara-acara seni yang akan datang di kota Anda. Pantau kalender kami untuk tidak ketinggalan pertunjukan, pameran, dan festival seni yang menarik perhatian.</p></div>

@@ -1,6 +1,7 @@
 import risetPages from '../../utils/risetPage';
 import DataSource from '../../config/dataResource.js';
 import dataEndPoint from '../../config/dataEndPoint.js';
+import admin from '../detailKegiatanSeni/detailAdmin';
 
 const detailGaleri = () => {
   risetPages();
@@ -26,9 +27,13 @@ const detailGaleri = () => {
               <div class="deskripsi-kegiatan"><p>${itemGaleri[urutanItem].deskripsi}</p></div>
               <div class="lokasi-kegiatan">Pecipta Karya : <p>${itemGaleri[urutanItem].pencipta}</p></div>
               <div class="tanggal-kegiatan">Tanggal Diciptakan : <p>${tanggalDiciptakan}</p></div>
+              <div class="btnTandai" style="width=0";></div>
           </div>
       </div>
     </div>`;
+        const idGaleri = itemGaleri[urutanItem].id;
+        const elementBtnHapus = document.querySelector('.btnTandai');
+        admin(elementBtnHapus, idGaleri, 'gallery');
       }
     });
 };

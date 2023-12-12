@@ -24,6 +24,9 @@ const footer = () => {
                         <a href="#kegiatan" class="text-reset">Kegiatan</a>
                     </p>
                     <p>
+                        <a href="#gallery" class="text-reset">Gallery</a>
+                    </p>
+                    <p>
                         <a href="#artikel" class="text-reset">Artikel</a>
                     </p>
                     <p>

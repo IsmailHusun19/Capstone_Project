@@ -1,12 +1,13 @@
 import DataSource from '../../config/dataResource.js';
 import dataEndPoint from '../../config/dataEndPoint.js';
 import detailGaleri from './detailGaleri.js';
+import authGaleri from '../../utils/authGaleri';
 
 const itemsGaleri = () => {
   const boxItemsGaleri = document.querySelector('.galeri-box2');
   boxItemsGaleri.innerHTML = `
     <div class="judul-galeri"><h2>Galeri Seni Indonesia</h2></div>
-    <div class="tambah-galeri"><a href="#formGaleri"><i class="fa-solid fa-cloud-arrow-up"></i>Unggah Galeri</a></div>
+    <div class="tambah-galeri"><a class="btn-upload-galeri"><i class="fa-solid fa-cloud-arrow-up"></i>Unggah Galeri</a></div>
     <div class="container-item-galeri"></div>`;
   const container = document.querySelector('.container-item-galeri');
   DataSource.getItmes(dataEndPoint.GALERI)
@@ -27,6 +28,7 @@ const itemsGaleri = () => {
         };
       });
     });
+  authGaleri();
 };
 
 export default itemsGaleri;

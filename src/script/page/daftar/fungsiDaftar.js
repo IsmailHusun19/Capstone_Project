@@ -8,7 +8,7 @@ const fungsiDaftar = async () => {
     const password = form.querySelector('input[placeholder="Password"]').value;
 
     try {
-      const response = await fetch('http://localhost:3000/auth/register', {
+      const response = await fetch('https://dokumentasi.pentas-seniid.my.id/auth/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -20,13 +20,29 @@ const fungsiDaftar = async () => {
 
       const data = await response.json();
       if (response.ok) {
-        console.log(data.data.token);
-        document.cookie = `token=${data.data.token};path=/`;
+        swal({
+          title: 'Success',
+          text: 'Daftar berhasil!',
+          icon: 'success',
+          button: 'OK'
+        }).then(() => {
+          window.location.href = '/?#login';
+        });
       } else {
-        console.log(data.error);
+        swal({
+          title: 'Gagal',
+          text: 'Daftar gagal!',
+          icon: 'error',
+          button: 'OK'
+        });
       }
     } catch (error) {
-      console.error('Terjadi kesalahan:', error);
+      swal({
+        title: 'Gagal',
+        text: 'Daftar gagal!',
+        icon: 'error',
+        button: 'OK'
+      });
     }
   });
 };

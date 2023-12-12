@@ -20,7 +20,7 @@ const fungsiFormKegiatanSeni = () => {
     formData.append('gambar_kegiatan', gambar);
 
     try {
-      const response = await fetch('http://localhost:3000/kegiatan', {
+      const response = await fetch('https://dokumentasi.pentas-seniid.my.id/kegiatan', {
         method: 'POST',
         body: formData
       });

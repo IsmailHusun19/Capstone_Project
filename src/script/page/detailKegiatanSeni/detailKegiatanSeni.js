@@ -1,6 +1,7 @@
 import risetPages from '../../utils/risetPage';
 import DataSource from '../../config/dataResource.js';
 import dataEndPoint from '../../config/dataEndPoint.js';
+import admin from './detailAdmin';
 
 const detail = () => {
   risetPages();
@@ -28,9 +29,13 @@ const detail = () => {
               <div class="lokasi-kegiatan">Lokasi : <p>${itemKegiatanSeni[urutanItem].alamat}</p></div>
               <div class="tanggal-kegiatan">Tanggal : <p>${formattedDate}</p></div>
               <div class="pukul-kegiatan">Pukul : <p>${itemKegiatanSeni[urutanItem].waktu} WIB</p></div>
+              <div class="btnTandai"></div>
           </div>
       </div>
     </div>`;
+        const idKegiatan = itemKegiatanSeni[urutanItem].id;
+        const elementBtnHapus = document.querySelector('.btnTandai');
+        admin(elementBtnHapus, idKegiatan, 'kegiatan');
       }
     });
 };

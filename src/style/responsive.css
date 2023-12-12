@@ -105,7 +105,6 @@
     .navbar ul.active {
         transform: scaleY(1);
     }
-
     .navbar ul li {
         width: 95%;
     }
@@ -127,7 +126,19 @@
         justify-content: center;
         width: 200px;
     }
+    .li-user a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+    .li-user a i {
+        margin-right: 5px;
+    }
 
+    .li-user a p {
+        max-width: 200px;
+    }
     .daftar-card {
         padding: 20px;
         border: 1px solid transparent;

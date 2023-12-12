@@ -10,6 +10,7 @@ import detailGaleri from '../page/galeri/detailGaleri';
 import formGaleri from '../page/galeri/formGaleri';
 import login from '../page/login/login.js';
 import daftar from '../page/daftar/daftar.js';
+import profile from '../page/profile/profile';
 
 const URL = () => {
   function handleRoute() {
@@ -37,7 +38,7 @@ const URL = () => {
       case '#tentangKami':
         aboutUs();
         break;
-      case '#galeri':
+      case '#gallery':
         galeri();
         break;
       case '#formGaleri':
@@ -51,6 +52,9 @@ const URL = () => {
         break;
       case '#detail':
         detail();
+        break;
+      case '#profile':
+        profile();
         break;
       default:
         break;
