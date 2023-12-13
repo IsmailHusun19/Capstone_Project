@@ -32,19 +32,19 @@ Kami percaya bahwa dengan meningkatkan akses pada seni dan budaya akan dapat mem
 - Satria Dioufan Artha Desanta - Full Stack Web Developer
 
 ## Fitur
-**- Autentikasi Pengguna:**
+- **Autentikasi Pengguna:**
 Fitur untuk login dan mendaftar akun pengguna.
-**- Lihat Kegiatan Seni:**
+- **Lihat Kegiatan Seni:**
 Pengguna dapat menjelajahi atau melihat daftar kegiatan seni yang tersedia.
-**- Lihat Karya Seni:**
+- **Lihat Karya Seni:**
 Menampilkan karya seni yang diunggah, baik berupa gambar karya seni.
-**- Upload Karya Seni:**
+- **Upload Karya Seni:**
 Pengguna bisa mengunggah karya seni mereka sendiri ke platform.
-**- Upload Kegiatan Seni:**
+- **Upload Kegiatan Seni:**
 Memberikan kemampuan pada pengguna untuk membagikan informasi tentang kegiatan seni yang mereka adakan.
-**- Hapus Kegiatan Seni:**
+- **Hapus Kegiatan Seni:**
 Memberikan opsi untuk menghapus kegiatan seni (Khusus admin).
-**- Lihat Artikel tentang Seni:**
+- **Lihat Artikel tentang Seni:**
 Menampilkan artikel-artikel terkait seni untuk dibaca oleh pengguna.
 
 ## Teknologi
