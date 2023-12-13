@@ -44,6 +44,8 @@ Pengguna bisa mengunggah karya seni mereka sendiri ke platform.
 Memberikan kemampuan pada pengguna untuk membagikan informasi tentang kegiatan seni yang mereka adakan.
 - **Hapus Kegiatan Seni:**
 Memberikan opsi untuk menghapus kegiatan seni (Khusus admin).
+- **Hapus Karya Seni:**
+Memberikan opsi untuk menghapus karya seni (Khusus admin).
 - **Lihat Artikel tentang Seni:**
 Menampilkan artikel-artikel terkait seni untuk dibaca oleh pengguna.
 
