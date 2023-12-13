@@ -1,14 +1,14 @@
 ### PENTAS SENI INDONESIA
 
 ## Daftar Isi
-- [Nama Proyek](#nama-proyek)
+- [Project](#Project)
   - [Jadwal\_Pelaksanaan](#jadwal_pelaksanaan)
   - [Tim](#tim)
   - [Fitur](#fitur)
   - [Teknologi](#teknologi)
   - [Instalasi](#instalasi)
 
-# Nama Proyek
+# Project
 **Pentas Seni Indonesia (PENSI ID)**
 Seni dan budaya memainkan peran penting dalam kehidupan masyarakat Indonesia. Namun, informasi terkait pentas seni sering sulit diakses. Pelaku seni kesulitan mempromosikan acara mereka, sementara penikmat seni sulit menemukan acara yang cocok.
 
