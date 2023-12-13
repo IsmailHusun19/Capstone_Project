@@ -10,7 +10,7 @@ const header = () => {
     elementHeader.innerHTML = `
         <div class="container-nav">
             <div class="navbar">
-                <div class="image-logo"><img src="../src/public/aset/logo.png" alt=""></div>
+                <div class="image-logo"><img src="../src/public/aset/logo.webp" alt=""></div>
                 <i class="fa-solid fa-bars" id=""></i>
                 <ul>
                     <li><a href="#beranda">Beranda</a></li>
@@ -26,7 +26,7 @@ const header = () => {
     elementHeader.innerHTML = `
     <div class="container-nav">
         <div class="navbar">
-            <div class="image-logo"><img src="../src/public/aset/logo.png" alt=""></div>
+            <div class="image-logo"><img src="../src/public/aset/logo.webp" alt=""></div>
             <i class="fa-solid fa-bars" id=""></i>
             <ul>
                 <li><a href="#beranda">Beranda</a></li>

@@ -3,10 +3,11 @@
     width: 90%;
     margin: 0 auto;
     padding-bottom: 30px;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    max-height: max-content;
 }
 
 .container-form-upload-galeri form {

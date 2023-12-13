@@ -3,10 +3,12 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const TerserWebpackPlugin = require('terser-webpack-plugin');
+const WorkboxWebpackPlugin = require('workbox-webpack-plugin');
 
 module.exports = {
   entry: {
     app: path.resolve(__dirname, 'src/index.js'),
+    vendor: path.resolve(__dirname, 'src/vendor.js'),
   },
   output: {
     filename: '[name].bundle.js',
@@ -27,11 +29,23 @@ module.exports = {
       ],
     }),
     new MiniCssExtractPlugin(),
+    new WorkboxWebpackPlugin.GenerateSW({
+      swDest: './sw.bundle.js',
+      runtimeCaching: [
+        {
+          urlPattern: ({ url }) => url.href.startsWith('https://dokumentasi.pentas-seniid.my.id/auth/users'),
+          handler: 'StaleWhileRevalidate',
+          options: {
+            cacheName: 'user-API',
+          },
+        },
+      ],
+    }),
   ],
   optimization: {
     minimize: true,
     minimizer: [
-      new TerserWebpackPlugin(), // Tambahkan TerserWebpackPlugin di sini
+      new TerserWebpackPlugin(),
     ],
   },
   module: {

@@ -6,7 +6,7 @@ const footer = () => {
             <div class="row mt-3">
                 <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                     <h6 class="text-uppercase fw-bold mb-4">
-                        <img class="logo" src="../src/public/aset/logo.png" alt="">
+                        <img class="logo" src="../src/public/aset/logo.webp" alt="">
                     </h6>
                     <p>
                         Temukan keindahan seni, jadwal pentas, galeri kreativitas, dan berbagi karya Anda dengan komunitas yang bersemangat. Bergabunglah dalam perjalanan seni yang tak terlupakan!
@@ -24,7 +24,7 @@ const footer = () => {
                         <a href="#kegiatan" class="text-reset">Kegiatan</a>
                     </p>
                     <p>
-                        <a href="#gallery" class="text-reset">Gallery</a>
+                        <a href="#gallery" class="text-reset">Galeri</a>
                     </p>
                     <p>
                         <a href="#artikel" class="text-reset">Artikel</a>

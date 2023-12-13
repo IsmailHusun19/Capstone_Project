@@ -1,3 +1,5 @@
+import kegiatanSeni from './itemKegiatan';
+
 const fungsiFormKegiatanSeni = () => {
   const form = document.querySelector('form');
 

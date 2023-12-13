@@ -1,0 +1,55 @@
+{
+    "id": "Pentas-Seni-Indonesia",
+    "start_url": "/index.html",
+    "name": "Pentas Seni Indonesia",
+    "short_name": "PentasSeniID",
+    "description": "portal keindahan dan kekayaan seni Indonesia! Di sini, kita menjelajahi pesona yang tiada taranya dari keragaman seni dan budaya yang memikat dari pelosok Nusantara.",
+    "display": "standalone",
+    "background_color": "#FFFFFF",
+    "theme_color": "#FF5857",
+    "icons": [
+      {
+        "src": "/src/public/aset/favicon.webp",
+        "sizes": "72x72",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/src/public/aset/favicon.webp",
+        "sizes": "96x96",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/src/public/aset/favicon.webp",
+        "sizes": "128x128",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/src/public/aset/favicon.webp",
+        "sizes": "144x144",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/src/public/aset/favicon.webp",
+        "sizes": "152x152",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/src/public/aset/favicon.webp",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/src/public/aset/favicon.webp",
+        "sizes": "384x384",
+        "type": "image/png",
+        "purpose": "any"
+      }
+    ]
+  }
+  

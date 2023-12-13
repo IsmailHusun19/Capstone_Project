@@ -156,7 +156,7 @@
         flex-direction: column;
         height: min-content;
         text-align: center;
-        background-image: url(../../src/public/aset/about/3d-render.png);
+        background-image: url(../../src/public/aset/about/3d-render.webp);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
