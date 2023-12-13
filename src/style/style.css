@@ -168,6 +168,7 @@ article {
     width: 95%;
     margin: 0 auto;
     padding: 50px 0;
+    min-height: 100vh;
 }
 
 article h1.jadwal {

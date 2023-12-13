@@ -6,7 +6,7 @@ const galeri = () => {
   ProjectGaleri.innerHTML = `
     <div class="container-galeri">
         <div class="galeri-box1">
-            <div class="gambar-galeri"><img src="../../../../src/public/aset/galeri/hero.png" alt=""></div>
+            <div class="gambar-galeri"><img src="../../../../src/public/aset/galeri/hero.webp" alt=""></div>
             <div class="keterangan-galeri">
                 <h1>Gelora Kreativitas, Eksplorasi Indah di Galeri Seni Indonesia</h1>
                 <p>Selamat datang di Galeri Seni Indonesia, tempat di mana keindahan budaya dan kreativitas berkumpul dalam karya-karya visual yang memukau. Mari jelajahi warisan seni Indonesia yang kaya melalui mata seniman-seniman terkemuka, dan temukan keajaiban dalam setiap sentuhan kreatif mereka. Selamat menikmati perjalanan seni yang menginspirasi di Galeri Seni Indonesia!</p>

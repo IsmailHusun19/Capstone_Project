@@ -41,8 +41,8 @@ const formDaftar = () => {
             <p class="daftar">Sudah punya akun? <a href="#login">Masuk</a></p>
         </div>
         <div class="login-with" id="daftar">
-            <p class="google"><img id="img-daftar" src="../../../src/public/aset/login-section/google.png" alt=""><a href="#daftar">Login dengan <span>Google</span></a></p>
-            <p class="facebook"> <img id="img-daftar" src="../../../src/public/aset/login-section/facebook.png" alt=""><a href="#daftar">Login dengan <span>Facebook</span></a></p>
+            <p class="google"><img id="img-daftar" src="../../../src/public/aset/login-section/google.webp" alt=""><a href="#daftar">Login dengan <span>Google</span></a></p>
+            <p class="facebook"> <img id="img-daftar" src="../../../src/public/aset/login-section/facebook.webp" alt=""><a href="#daftar">Login dengan <span>Facebook</span></a></p>
         </div>
     </form>`;
   fungsiDaftar();

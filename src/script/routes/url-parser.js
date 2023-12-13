@@ -11,6 +11,8 @@ import formGaleri from '../page/galeri/formGaleri';
 import login from '../page/login/login.js';
 import daftar from '../page/daftar/daftar.js';
 import profile from '../page/profile/profile';
+import authGaleri from '../utils/authGaleri';
+import authKegiatan from '../utils/authKegiatan';
 
 const URL = () => {
   function handleRoute() {
@@ -27,6 +29,7 @@ const URL = () => {
         kegiatan();
         break;
       case '#formKegiatanSeni':
+        authKegiatan();
         formKegiatanSeni();
         break;
       case '#artikel':
@@ -42,6 +45,7 @@ const URL = () => {
         galeri();
         break;
       case '#formGaleri':
+        authGaleri();
         formGaleri();
         break;
       case '#login':

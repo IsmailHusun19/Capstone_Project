@@ -6,7 +6,7 @@ const headerAbout = () => {
         <p>Pentas seni Indonesia adalah refleksi keindahan yang terwujud dalam gerak, suara, dan warna, sebuah pesta rupa untuk jiwa yang haus akan keindahan</p>
     </div>
     <div class="desc-picture">
-        <img src="../../../src/public/aset/about/3d-render.png" alt="">
+        <img src="../../../src/public/aset/about/3d-render.webp" alt="">
     </div>`;
 };
 

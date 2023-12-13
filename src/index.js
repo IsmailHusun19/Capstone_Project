@@ -4,6 +4,7 @@ import footer from './script/componen/footer.js';
 import navBar from './script/utils/navbar.js';
 import authGaleri from './script/utils/authGaleri.js';
 import authKegiatan from './script/utils/authKegiatan';
+import swRegister from './script/utils/sw.js';
 import '../src/style/style.css';
 import '../src/style/about.css';
 import '../src/style/artikel.css';
@@ -26,3 +27,7 @@ navBar();
 URL();
 authGaleri();
 authKegiatan();
+
+window.addEventListener('load', async () => {
+  await swRegister();
+});

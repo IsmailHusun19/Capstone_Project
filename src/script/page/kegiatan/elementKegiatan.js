@@ -6,7 +6,7 @@ const elementKegiatan = () => {
 
   const header = document.querySelector('header');
   header.style.height = '100vh';
-  header.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../../src/public/aset/hero.png')";
+  header.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../../src/public/aset/hero.webp')";
 
   const boxElement = document.createElement('div');
   boxElement.classList.add('box');
