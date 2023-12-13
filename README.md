@@ -32,19 +32,19 @@ Kami percaya bahwa dengan meningkatkan akses pada seni dan budaya akan dapat mem
 - Satria Dioufan Artha Desanta - Full Stack Web Developer
 
 ## Fitur
-**1.Autentikasi Pengguna:**
+**- Autentikasi Pengguna:**
 Fitur untuk login dan mendaftar akun pengguna.
-**2.Lihat Kegiatan Seni:**
+**- Lihat Kegiatan Seni:**
 Pengguna dapat menjelajahi atau melihat daftar kegiatan seni yang tersedia.
-**3.Lihat Karya Seni:**
+**- Lihat Karya Seni:**
 Menampilkan karya seni yang diunggah, baik berupa gambar karya seni.
-**4.Upload Karya Seni:**
+**- Upload Karya Seni:**
 Pengguna bisa mengunggah karya seni mereka sendiri ke platform.
-**5.Upload Kegiatan Seni:**
+**- Upload Kegiatan Seni:**
 Memberikan kemampuan pada pengguna untuk membagikan informasi tentang kegiatan seni yang mereka adakan.
-**6.Hapus Kegiatan Seni:**
+**- Hapus Kegiatan Seni:**
 Memberikan opsi untuk menghapus kegiatan seni (Khusus admin).
-**7.Lihat Artikel tentang Seni:**
+**- Lihat Artikel tentang Seni:**
 Menampilkan artikel-artikel terkait seni untuk dibaca oleh pengguna.
 
 ## Teknologi
@@ -55,6 +55,6 @@ Menampilkan artikel-artikel terkait seni untuk dibaca oleh pengguna.
 - Tools : Postman, Larahon, Gitbash
 
 ## Instalasi
-$ npm install
-$ npm build  - (production)
-$ npm start-dev  - (development)
+- $ npm install
+- $ npm build  - (production)
+- $ npm start-dev  - (development)
