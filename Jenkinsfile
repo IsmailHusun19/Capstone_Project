@@ -6,6 +6,7 @@ pipeline {
     }
     environment {
         PUBLIC_URL       = 'https://github.com/IsmailHusun19/Capstone_Project'
+        // konfigurasi credential untuk menghubung github agar dapat diakses oleh jenkins dengan github token 
         GIT_CREDENTIALS= credentials('jenkins-github-token')
         GITHUB_REPOSITORY = 'IsmailHusun19/Capstone_Project'
     }
@@ -19,6 +20,7 @@ pipeline {
     }
         stage('Build') {
             steps {
+                  // Menerapkan beberapa Tahapan Build
                 sh 'npm install'
                 sh 'npm run build'
             }
@@ -26,6 +28,7 @@ pipeline {
         
         stage('Test') {
             steps {
+                // Menerapkan beberapa Tahapan test
             sh 'chmod +x ./jenkins/scripts/test.sh'
                sh './jenkins/scripts/test.sh'
             }

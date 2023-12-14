@@ -1,8 +1,8 @@
 #!/usr/bin/env sh
 set -x
-# just to ensure the build
+# perintah ini hanya untuk memastikan folder yang ada pada dist
 ls dist
-# set the user, I just use Github Actions. hahaha
+# set the user, I just use Github Actions.
 git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 git config --global user.name "github-actions[bot]"
 # set the target repo
