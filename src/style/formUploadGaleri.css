@@ -1,0 +1,38 @@
+.container-form-upload-galeri {
+    padding-top: 100px;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: max-content;
+}
+
+.container-form-upload-galeri form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid black;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+}
+
+.container-form-upload-galeri form h1 {
+    text-align: center;
+    margin: 5px 0;
+    font-size: 25px;
+}
+
+.form-label {
+    margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .container-form-upload-galeri {
+        width: 90%;
+    }
+}

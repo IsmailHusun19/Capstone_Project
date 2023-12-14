@@ -1,0 +1,364 @@
+.container-beranda {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.beranda-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80vh;
+}
+
+.judul-beranda {
+    width: 60%;
+}
+
+.judul-beranda h1 {
+    font-size: 60px;
+    width: 400px;
+    background: linear-gradient(180deg, black, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+.judul-beranda p {
+    font-size: 19px;
+    text-align: justify;
+}
+
+.gambar-beranda {
+    overflow: hidden;
+
+
+}
+
+.gambar-beranda img {
+    width: 110%;
+    margin-bottom: -30px;
+}
+
+
+@media screen and (min-width: 1200px) {
+    .beranda-header {
+        height: 90vh;
+    }
+}
+
+
+@media screen and (max-width: 1000px){
+    .beranda-header {
+        height: max-content;
+    }
+    .judul-beranda h1 {
+        font-size: 40px;
+    }
+    .judul-beranda p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .beranda-header {
+        flex-direction: column-reverse;
+    }
+    .judul-beranda {
+        width: 100%;
+    }
+    .gambar-beranda img {
+        width: 100%;
+    }
+    .judul-beranda h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 60px;
+    }
+    .judul-beranda p {
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .judul-beranda h1 {
+        font-size: 40px;
+    }
+}
+
+.judul-conten-beranda h4 {
+    width: 250px;
+    height: 40px;
+    background-color: #C31815;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 100px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.content-item-beranda {
+    margin: 20px 0;
+}
+
+.box-1-beranda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    height: 200px;
+    border-radius: 100px;
+    padding: 30px;
+    background-color: #C4D4FF;
+    box-shadow: 0 0 5px black;
+    gap: 50px;
+}
+
+.box-1-1-beranda, .box-1-2-beranda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.box-1-1-beranda {
+    width: 25%;
+    height: 170px;
+    margin-left: -15px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    border-right: 5px solid #a2bafb;
+}
+
+.box-1-1-beranda h2 {
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+    color: #C31815;
+}
+
+.box-1-2-beranda {
+    width: 80%;
+}
+
+.box-1-2-beranda p {
+    margin: 0;
+    text-align: left;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1100px) {
+    .box-1-1-beranda h2 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .box-1-beranda {
+        gap: 20px;
+    }
+    .box-1-1-beranda h2 {
+        font-size: 16px;
+    }
+    .box-1-1-beranda {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .box-1-beranda {
+        width: 100%;
+    }
+    .box-1-1-beranda h2 {
+        font-size: 16px;
+    }
+    .box-1-2-beranda p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .box-1-beranda {
+        flex-direction: column;
+        gap: 10px;
+        height: max-content;
+    }
+    .box-1-1-beranda {
+        border: none;
+        margin-left: 0;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        width: 100%;
+        background-color: transparent;
+        height: max-content;
+    }
+    .box-1-2-beranda {
+        width: 100%;
+    }
+    .box-1-1-beranda h2 {
+        font-size: 20px;
+    }
+    .box-1-2-beranda p {
+        text-align: center;
+    }
+}
+
+.judul-box-beranda-2 {
+    margin: 50px 0;
+}
+
+.judul-box-beranda-2 h1 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.box-2-beranda {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #C31815;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 30px;
+}
+.box-3-beranda {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #C31815;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    padding: 30px;
+}
+
+.box-beranda-2-item {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 150px;
+}
+
+.box-beranda-3-item {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 150px;
+    flex-direction: row-reverse;
+}
+
+.box-2-1-beranda {
+    width: 80%;
+}
+
+.box-2-1-beranda p {
+    color: #FFFFFF;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.box-2-2-beranda {
+    width: 25%;
+}
+
+.box-2-2-beranda img {
+    width: 200px;
+    height: 180px;
+}
+
+@media screen and (max-width: 1000px) {
+    .box-2-beranda {
+        width: 100%;
+    }
+    .box-3-beranda {
+        width: 100%;
+    }
+    .box-2-1-beranda {
+        width: 70%;
+    }
+    .box-beranda-2-item {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .box-beranda-3-item {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .box-2-2-beranda img {
+        width: 180px;
+        height: 160px;
+    }
+
+    .box-2-2-beranda img.img-3-beranda {
+        width: 150px;
+        height: 130px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .box-2-2-beranda img {
+        width: 150px;
+        height: 130px;
+    }
+
+    .box-2-2-beranda img.img-3-beranda {
+        width: 120px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .box-2-beranda, .box-3-beranda {
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        border-top-left-radius: 100px;
+        border-bottom-left-radius: 100px;
+    }
+
+    .box-beranda-2-item, .box-beranda-3-item {
+        flex-direction: column-reverse;
+        height: max-content;
+    } 
+
+    .box-2-1-beranda {
+        width: 100%;
+    }
+
+    .box-2-2-beranda {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .box-2-2-beranda img {
+        width: 180px;
+        height: 150px;
+    }
+
+    .box-2-2-beranda img.img-3-beranda {
+        width: 200px;
+        height: 180px;
+    }
+    .box-2-1-beranda p {
+        text-align: center;
+    }
+
+}
+
+
+
+

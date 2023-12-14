@@ -1,0 +1,20 @@
+.page-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 0 0 5px black;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.detail-profile {
+    padding-top: 80px;
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}

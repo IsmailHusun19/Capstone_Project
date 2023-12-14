@@ -1,0 +1,248 @@
+.content-project {
+  background-color: #F5F5F5;
+  padding-bottom: 50px;
+
+}
+
+.container-content-project-detail-artikel {
+  padding-top: 80px;
+  width: 100%;
+  margin: 0 auto;
+}
+.box-1-detail-artikel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 450px;
+  position: relative;
+}
+
+.box-1-1-detail-artikel {
+  width: 100%;
+  margin: 0 auto;
+  height: 70%;
+  background-color: #C31815;
+  
+}
+
+.box-1-2-detail-artikel {
+  height: 30%;
+  width: 100%;
+  margin: 0 auto;
+  
+}
+
+.box-1-3-detail-artikel {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+}
+
+.judul-detail-artikel-2 {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.box-1-3-detail-artikel h1 {
+  text-align: center;
+  font-size: 23px;
+  color: #FFFFFF;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.box-1-3-detail-artikel .gambar-detail-artikel {
+  text-align: center;
+}
+
+.box-1-3-detail-artikel .gambar-detail-artikel img {
+  min-width: 700px;
+  max-width: 800px;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.kota-tanggal-detail-artikel {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  gap: 20px;
+  padding: 0;
+}
+
+.kota-tanggal-detail-artikel p{
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.kota-tanggal-detail-artikel p:nth-child(1){
+  font-weight: 500;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 900px){
+  .box-1-detail-artikel {
+    height: 0;
+  }
+  .box-1-1-detail-artikel {
+    background-color: #C31815;
+    height: 20%;
+  }
+  .box-1-2-detail-artikel {
+    height: 80%;
+  }
+  .box-1-3-detail-artikel {
+    width: 95%;
+    height: max-content;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+  }
+
+  .box-1-3-detail-artikel .judul-detail-artikel {
+    order: 3;
+  }
+
+  .box-1-3-detail-artikel .judul-detail-artikel h1 {
+    font-size: 18px;
+    margin: 15px 0;
+    color: #2e2e2e;
+    text-align: left;
+  }
+  .box-1-3-detail-artikel .gambar-detail-artikel {
+    width: 100%;
+    order: 2;
+  }
+  .box-1-3-detail-artikel .gambar-detail-artikel img {
+    min-width: unset;
+    max-width: unset;
+    max-height: unset;
+    width: 100%;
+    height: 100%;
+  }
+  .box-1-3-detail-artikel .kota-tanggal-detail-artikel {
+    order: 1;
+    color: #FFFFFF;
+  }
+}
+
+.box-2-detail-artikel {
+  display: flex;
+  gap: 10px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.box-2-1-detail-artikel {
+  width: 80%;
+}
+
+.box-2-2-detail-artikel {
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.item-artikel-lainnya {
+  width: 100%;
+  min-width: 240px;
+  max-width: 250px;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 5px black;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.gambar-artikel-lainnya {
+  width: 100%;
+}
+
+.gambar-artikel-lainnya img {
+  width: 100%;
+  min-height: 140px;
+  object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.keterangan-item-detail-arikel-lainnya {
+  padding: 5px;
+}
+
+.item-artikel-lainnya h2 {
+  font-size: 14px;    
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin: 2px 0;
+}
+
+.item-artikel-lainnya p {
+  font-size: 13px;    
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-bottom: 0;
+}
+
+.kota-tanggal-detail-artikel-lainnya {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.kota-tanggal-detail-artikel-lainnya p {
+  margin: 7px 0;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 1140px) {
+  .box-2-detail-artikel {
+    width: 95%;
+  }
+  .box-2-1-detail-artikel {
+    width: 70%;
+  }
+  .box-2-2-detail-artikel {
+    width: 30%;
+  }
+  
+}
+
+@media screen and (max-width: 840px) {
+  .box-2-detail-artikel {
+    width: 80%;
+    flex-direction: column;
+  }
+  .box-2-1-detail-artikel {
+    width: 100%;
+  }
+  .box-2-2-detail-artikel {
+    width: 100%;
+    flex-direction: row;
+  }
+  .item-artikel-lainnya {
+    min-width: unset;
+    max-width: unset;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .box-2-2-detail-artikel {
+    flex-direction: column;
+  }
+  .item-artikel-lainnya {
+    max-width: unset;
+  }
+  .box-2-detail-artikel {
+    width: 90%;
+  }
+}

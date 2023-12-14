@@ -27,6 +27,15 @@
         "import/order": 0,
         "eol-last": 0,
         "import/no-useless-path-segments": 0,
-        "no-shadow": 0
+        "no-shadow": 0,
+        "prefer-const": 0,
+        "comma-dangle": 0,
+        "import/no-named-as-default-member": 0,
+        "eqeqeq": 0,
+        "no-inner-declarations": 0,
+        "max-len": 0,
+        "no-param-reassign": 0,
+        "no-unreachable ": 0,
+        "no-empty": 0
     }
 }

@@ -1,0 +1,54 @@
+{
+    "Team": [
+        {
+            "id": 1,
+            "nama": "Muhamad Farras Azahry",
+            "gambar": "../../../src/public/aset/about/farras.webp",
+            "role": "Full Stack Web Developer",
+            "univ": "Universitas Pamulang",
+            "linked": "https://www.linkedin.com/in/muhamad-farras-azhary-26a110289/",
+            "instagram": "https://www.instagram.com/farras_azhary/",
+            "github": "https://github.com/farrasazhary"
+        },
+        {
+            "id": 2,
+            "nama": "Ismail Husun",
+            "gambar": "../../../src/public/aset/about/ismail.webp",
+            "role": "Full Stack Web Developer",
+            "univ": "Universitas Banten Jaya",
+            "linked": "https://www.linkedin.com/in/ismail-husun-34515a264/",
+            "instagram": "https://www.instagram.com/ismail_husun19/",
+            "github": "https://github.com/IsmailHusun19"
+        },
+        {
+            "id": 3,
+            "nama": "Dita Ayu Kustina",
+            "gambar": "../../../src/public/aset/about/dita.webp",
+            "role": "Full Stack Web Developer",
+            "univ": "Universitas Bandar Lampung",
+            "linked": "https://www.linkedin.com/in/dita-ayu-kustina-135951294/",
+            "instagram": "https://instagram.com/ditaayu.13?igshid=OGQ5ZDc2ODk2ZA==",
+            "github": "https://github.com/ditaAyu01"
+        },
+        {
+            "id": 4,
+            "nama": "Ihpaz Laga Sukanda",
+            "gambar": "../../../src/public/aset/about/ihpaz.webp",
+            "role": "Full Stack Web Developer",
+            "univ": "Universitas Negeri Yogyakarta",
+            "linked": "https://www.linkedin.com/in/ihpaz-laga-sukanda-3b40a9283/",
+            "instagram": "https://www.instagram.com/pazharka",
+            "github": "https://github.com/arkablok"
+        },
+        {
+            "id": 1,
+            "nama": "Satria Dioufan Artha Desanta",
+            "gambar": "../../../src/public/aset/about/satria.webp",
+            "role": "Full Stack Web Developer",
+            "univ": "Universitas Pembangunan Nasional Veteran Jawa Timur",
+            "linked": "https://www.linkedin.com/in/satria-dioufan-artha-desanta-39991b282/",
+            "instagram": "https://github.com/Satriadiouf24",
+            "github": "https://instagram.com/satria_diouf?igshid=MzMyNGUyNmU2YQ=="
+        }
+    ]
+}

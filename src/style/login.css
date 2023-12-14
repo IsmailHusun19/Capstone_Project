@@ -9,13 +9,12 @@
 
 
 .container-login-daftar {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     padding-top: 110px;
     padding-bottom: 40px;
     display: flex;
     justify-content: space-between;
-    max-width: 1000px;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -146,6 +145,7 @@
 .login-with p a {
     color: #2E2E2E;
     text-decoration: none;
+    cursor: default;
 }
 
 .login-with p a span {
@@ -168,9 +168,9 @@
     width: 300px;
 }
 
-.google:hover, .facebook:hover {
+/* .google:hover, .facebook:hover {
     background-color: #eaeaea;
-}
+} */
 
 .google img, .facebook img {
     width: 20px;

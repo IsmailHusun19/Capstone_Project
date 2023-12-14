@@ -19,7 +19,6 @@ body {
 header.header {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),  url(../../src/public/aset/hero.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -29,12 +28,12 @@ header.header {
     width: 100%;
     margin: 0 auto;
     position: fixed;
-    z-index: 100;
+    z-index: 9999999;
     background-color: #F8F9FA;
 }
 
 .navbar {
-    width: 95%;
+    width: 93%;
     margin: 0 auto;
 }
 
@@ -92,6 +91,35 @@ nav ul .login a:hover {
     color: #2E2E2E;
 }
 
+.li-user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.li-user a i {
+    font-size: 23px;
+    border-radius: 50%;
+    margin: 0;
+    margin-left: 5px;
+    margin-top: -4px;
+}
+
+.li-user a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.li-user a p {
+    max-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    font-weight: 600;
+    font-size: 15px;
+    margin: 0;
+}
+
 .box {
     margin-top: 70px;
     width: 95%;
@@ -136,12 +164,11 @@ nav ul .login a:hover {
     margin: 0 5px;
 }
 
-
-
-
 article {
     width: 95%;
-    margin: 50px auto;
+    margin: 0 auto;
+    padding: 50px 0;
+    min-height: 100vh;
 }
 
 article h1.jadwal {
@@ -156,7 +183,6 @@ article h1.jadwal {
     width: 120px;
     height: 1.5px;
     background-color: #FF5857;
-    margin-bottom: 30px;
 }
 
 .box-kegiatan {
@@ -167,6 +193,52 @@ article h1.jadwal {
     gap: 20px;
 }
 
+.box .search {
+    width: 60%;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+  
+.box .search input {
+    width: 100%;
+    padding: 8px;
+    height: 44px;
+    border: none;
+    outline: none;
+    font-size: medium;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+  
+.box .search input:focus {
+    box-shadow: 0 0 5px #FF5857;
+    outline: 1px solid #FF5857;
+}
+  
+  
+.box .search button {
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 44px;
+    width: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #FF5857;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: medium;
+    cursor: pointer;
+}
+  
+.box .search button:hover {
+    background-color: #ff6d6d;
+    color: #2E2E2E;
+}
+
 .item-kegiatan {
     max-width: 310px;
     width: 100%;
@@ -174,6 +246,7 @@ article h1.jadwal {
     box-shadow: 0px 0px 2px black;
     border-radius: 5px;
     margin: 0 auto;
+    cursor: pointer;
 }
 
 .box-kegiatan .image-kegiatan {
@@ -209,7 +282,7 @@ article h1.jadwal {
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    color: #FF5857;
+    color: #2E2E2E;
     font-weight: 500;
 }
 
@@ -220,6 +293,7 @@ article h1.jadwal {
 .lokasi-waktu-kegiatan .lokasi, .lokasi-waktu-kegiatan .pukul, .lokasi-waktu-kegiatan .tanggal  {
     display: flex;
     justify-content: space-between;
+    gap: 10px;
 
 }
 
@@ -282,66 +356,12 @@ article h1.jadwal {
 .selengkapnya p {
     text-align: center;
     margin: 0;
-}
-.selengkapnya p a {
-    text-decoration: none;
-    color: #2E2E2E;
     cursor: pointer;
-    font-weight: 500;
 }
 
-.selengkapnya p a:hover {
+.selengkapnya p:hover {
     color: #ba3939;
     transition: all ease 0.5s;
-}
-
-.container-galeri {
-    width: 100%;
-    margin: 0 auto;
-    margin-bottom: 0;
-    padding: 40px 0;
-    background-color: #2E2E2E;
-    color: #FFFFFF;
-}
-
-.container-galeri h1.judulGaleri {
-    text-align: center;
-    font-size: 25px;
-}
-
-.container-galeri p {
-    text-align: center;
-    width: 95%;
-    margin: 0 auto;
-}
-
-.container-galeri .garis {
-    background-color: #FFFFFF;
-    margin-bottom: 10px;
-}
-
-.box-galeri {
-    width: 95%;
-    margin: 0px auto;
-    margin-bottom: 0;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 5px;
-    padding: 10px;
-    flex-wrap: wrap;
-}
-
-.box-galeri .galeri {
-    width: 100%;
-    cursor: pointer;
-}
-
-.box-galeri .galeri:hover {
-    transform: scale(1.02);
-}
-
-.box-galeri .galeri img {
-    width: 100%;
 }
 
 .container-tentangKami {
@@ -414,4 +434,17 @@ footer img.logo {
 
 .text-reset {
     margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+    .box .search {
+        width: 80%;
+    }
+    
+}
+@media screen and (max-width: 500px) {
+    .box .search {
+        width: 100%;
+    }
+    
 }
