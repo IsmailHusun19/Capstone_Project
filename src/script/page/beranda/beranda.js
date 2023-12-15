@@ -17,13 +17,13 @@ const beranda = () => {
         <div class="judul-conten-beranda">
             <h4>Fitur Website Kami</h4>
         </div>
-        <div class="content-item-beranda" data-aos="fade-right">
+        <div class="content-item-beranda" data-aos="fade-left">
             <div class="box-1-beranda">
                 <div class="box-1-1-beranda"><h2>Menyelusuri Seni Indonesia</h2></div>
                 <div class="box-1-2-beranda"><p>Dapatkan informasi terbaru mengenai pentas seni terkini di seluruh Indonesia. Dari pertunjukan teater yang mendalam hingga konser musik yang menggugah, kami hadirkan sorotan eksklusif untuk Anda.</p></div>
             </div>
         </div>
-        <div class="judul-box-beranda-2" data-aos="fade-left">
+        <div class="judul-box-beranda-2" data-aos="fade-right">
             <h1>🎨Galeri</h1>
             <div class="box-2-beranda">
                 <div class="box-beranda-2-item">
@@ -32,7 +32,7 @@ const beranda = () => {
                 </div>
             </div>
         </div>
-        <div class="judul-box-beranda-2" data-aos="fade-right">
+        <div class="judul-box-beranda-2" data-aos="fade-left">
             <h1>📅Agenda Seni</h1>
             <div class="box-3-beranda">
                 <div class="box-beranda-3-item">
@@ -41,7 +41,7 @@ const beranda = () => {
                 </div>
             </div>
         </div>
-        <div class="judul-box-beranda-2" data-aos="fade-left">
+        <div class="judul-box-beranda-2" data-aos="fade-right">
             <h1>💻Responsif</h1>
             <div class="box-2-beranda">
                 <div class="box-beranda-2-item">

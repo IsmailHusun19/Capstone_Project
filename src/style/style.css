@@ -14,6 +14,7 @@ body {
 
 .container-my-project {
     background-color: #F8F9FA;
+    overflow-x: hidden;
 }
 
 header.header {
