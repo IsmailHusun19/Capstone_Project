@@ -1,12 +1,12 @@
 import DataSource from '../../config/dataResource.js';
-import dataEndPoint from '../../config/dataEndPoint.js';
+import DATA_ENDPOINT from '../../config/dataEndPoint.js';
 
 const team = () => {
   const elementTeam = document.querySelector('.team');
   elementTeam.innerHTML = `
     <div class="team-title"><h1>This is My Team</h1></div>
     <div class="profile"></div>`;
-  DataSource.getItmes(dataEndPoint.TEAM)
+  DataSource.getItmes(DATA_ENDPOINT.TEAM)
     .then((response) => response.json())
     .then((data) => {
       const allTeam = data.Team;

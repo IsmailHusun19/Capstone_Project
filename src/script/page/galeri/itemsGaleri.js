@@ -1,5 +1,5 @@
 import DataSource from '../../config/dataResource.js';
-import dataEndPoint from '../../config/dataEndPoint.js';
+import DATA_ENDPOINT from '../../config/dataEndPoint';
 import detailGaleri from './detailGaleri.js';
 import authGaleri from '../../utils/authGaleri';
 
@@ -12,7 +12,7 @@ const itemsGaleri = async () => {
       <div class="container-item-galeri"></div>`;
 
     const container = document.querySelector('.container-item-galeri');
-    const response = await DataSource.getItmes(dataEndPoint.GALERI);
+    const response = await DataSource.getItmes(DATA_ENDPOINT.GALERI);
     const data = await response.json();
 
     const items = data.data || [];

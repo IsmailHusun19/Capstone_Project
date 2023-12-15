@@ -1,6 +1,8 @@
+import DATA_ENDPOINT from '../../config/dataEndPoint';
+
 const fungsiLogin = async (email, password) => {
   try {
-    const response = await fetch('https://dokumentasi.pentas-seniid.my.id/auth/login', {
+    const response = await fetch(DATA_ENDPOINT.LOGIN, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

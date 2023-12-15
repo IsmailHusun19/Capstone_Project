@@ -1,12 +1,12 @@
 import DataSource from '../../config/dataResource.js';
-import dataEndPoint from '../../config/dataEndPoint.js';
+import DATA_ENDPOINT from '../../config/dataEndPoint';
 import elementItem from './elementItemKegiatanSeni.js';
 import search from './searchKegiatanSeni.js';
 import controlItem from './controlItemKegiatanSeni.js';
 
 const kegiatanSeni = async () => {
   try {
-    const response = await DataSource.getItmes(dataEndPoint.KEGIATAN_SENI);
+    const response = await DataSource.getItmes(DATA_ENDPOINT.KEGIATAN_SENI);
 
     if (!response.ok) {
       throw new Error('Network response was not ok');

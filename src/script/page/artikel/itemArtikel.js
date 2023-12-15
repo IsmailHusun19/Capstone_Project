@@ -1,11 +1,11 @@
 import DataSource from '../../config/dataResource.js';
-import dataEndPoint from '../../config/dataEndPoint.js';
+import DATA_ENDPOINT from '../../config/dataEndPoint.js';
 import detailArtikel from '../detailArtikel/detailArtikel.js';
 import elementArtikel from './elementItemArtikel.js';
 
 const itemArtikel = () => {
   const boxItem = document.querySelector('.item-artikel');
-  DataSource.getItmes(dataEndPoint.ARTIKEL)
+  DataSource.getItmes(DATA_ENDPOINT.ARTIKEL)
     .then((response) => response.json())
     .then((data) => {
       const dataItems = data.Artikel;

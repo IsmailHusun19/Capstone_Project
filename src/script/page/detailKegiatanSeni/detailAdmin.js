@@ -3,7 +3,6 @@ const admin = (elementBtnHapus, idKegiatan, kegiatan) => {
   const isTokenExist = tokenCookie !== undefined;
 
   if (isTokenExist && tokenCookie.split('=')[1] === '2') {
-    console.log(tokenCookie);
     elementBtnHapus.innerHTML = '<button class="btnHapusKegiatan" type="button">Hapus</button>';
     const btnHapus = elementBtnHapus.querySelector('button');
 

@@ -1,9 +1,9 @@
 import DataSource from '../../config/dataResource.js';
-import dataEndPoint from '../../config/dataEndPoint.js';
+import DATA_ENDPOINT from '../../config/dataEndPoint.js';
 
 const headerDetailArtikel = (id) => {
   const headerDetail = document.querySelector('.box-1-detail-artikel');
-  DataSource.getItmes(dataEndPoint.ARTIKEL)
+  DataSource.getItmes(DATA_ENDPOINT.ARTIKEL)
     .then((response) => response.json())
     .then((data) => {
       const item = data.Artikel[id];
