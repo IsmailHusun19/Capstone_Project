@@ -394,10 +394,11 @@ h1.judulTentangKami {
 }
 
 .tentang-kami p {
-    font-family: 'Bad Script', cursive;
+    font-family: 'Comic Neue', cursive;
     font-size: large;
     font-style: normal;
     color: #2E2E2E;
+    font-weight: 700;
 }
 
 .title-upload {
