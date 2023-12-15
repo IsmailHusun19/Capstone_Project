@@ -7,7 +7,7 @@ const formLogin = () => {
         <div class="input-email">
             <input type="email" placeholder="Email" autocomplete="email" id="email" required>
             <div class="simbol-email">
-                <i class="fa-regular fa-user" ></i>
+            <i class="fa-regular fa-envelope"></i>
             </div>
         </div>
     </div>

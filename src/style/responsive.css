@@ -33,6 +33,19 @@
     }
 }
 
+@media screen and (min-width: 1499px) {
+    .keteragan-kegiatan .judul-kegiatan h2 {
+        height: 45px;
+    }
+    .lokasi-waktu-kegiatan .deskripsi p{
+        height: 120px;
+    }
+    .profile {
+        gap: 30px;
+    }
+
+}
+
 @media screen and (max-width: 1450px) {
     .card-profile .about-profile .detail-profile {
         transform: translateY(20px);
