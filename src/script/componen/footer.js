@@ -48,7 +48,7 @@ const footer = () => {
         </div>
     </section>
     <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-        <P class="text-reset">© 2021 Copyright : <span class="fw-bold">Pentas Seni ID</span></P>
+        <P class="text-reset">© 2023 Copyright : <span class="fw-bold">Pentas Seni ID</span></P>
     </div>
   `;
 };
