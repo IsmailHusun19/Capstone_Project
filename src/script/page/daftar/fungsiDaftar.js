@@ -1,3 +1,5 @@
+import DATA_ENDPOINT from '../../config/dataEndPoint';
+
 const fungsiDaftar = async () => {
   const form = document.querySelector('.form-login form');
   form.addEventListener('submit', async (e) => {
@@ -8,7 +10,7 @@ const fungsiDaftar = async () => {
     const password = form.querySelector('input[placeholder="Password"]').value;
 
     try {
-      const response = await fetch('https://dokumentasi.pentas-seniid.my.id/auth/register', {
+      const response = await fetch(DATA_ENDPOINT.REGISTER, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

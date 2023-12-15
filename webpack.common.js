@@ -1,9 +1,14 @@
 const path = require('path');
+const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const TerserWebpackPlugin = require('terser-webpack-plugin');
 const WorkboxWebpackPlugin = require('workbox-webpack-plugin');
+
+require('dotenv').config({
+  path: path.resolve('.env'),
+});
 
 module.exports = {
   entry: {
@@ -20,6 +25,9 @@ module.exports = {
       filename: 'index.html',
       template: path.resolve(__dirname, 'src/index.html'),
     }),
+    new webpack.DefinePlugin({
+      'process.env': JSON.stringify(process.env),
+    }),
     new CopyWebpackPlugin({
       patterns: [
         {
@@ -29,18 +37,18 @@ module.exports = {
       ],
     }),
     new MiniCssExtractPlugin(),
-    new WorkboxWebpackPlugin.GenerateSW({
-      swDest: './sw.bundle.js',
-      runtimeCaching: [
-        {
-          urlPattern: ({ url }) => url.href.startsWith('https://dokumentasi.pentas-seniid.my.id/auth/users'),
-          handler: 'StaleWhileRevalidate',
-          options: {
-            cacheName: 'user-API',
-          },
-        },
-      ],
-    }),
+    // new WorkboxWebpackPlugin.GenerateSW({
+    //   swDest: './sw.bundle.js',
+    //   runtimeCaching: [
+    //     {
+    //       urlPattern: ({ url }) => url.href.startsWith('https://dokumentasi.pentas-seniid.my.id/auth/users'),
+    //       handler: 'StaleWhileRevalidate',
+    //       options: {
+    //         cacheName: 'user-API',
+    //       },
+    //     },
+    //   ],
+    // }),
   ],
   optimization: {
     minimize: true,

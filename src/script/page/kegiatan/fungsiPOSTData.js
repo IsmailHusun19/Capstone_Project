@@ -1,4 +1,4 @@
-import kegiatanSeni from './itemKegiatan';
+import DATA_ENDPOINT from '../../config/dataEndPoint';
 
 const fungsiFormKegiatanSeni = () => {
   const form = document.querySelector('form');
@@ -22,7 +22,7 @@ const fungsiFormKegiatanSeni = () => {
     formData.append('gambar_kegiatan', gambar);
 
     try {
-      const response = await fetch('https://dokumentasi.pentas-seniid.my.id/kegiatan', {
+      const response = await fetch(DATA_ENDPOINT.KEGIATAN_SENI, {
         method: 'POST',
         body: formData
       });

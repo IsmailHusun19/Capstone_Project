@@ -1,12 +1,11 @@
 const DATA_ENDPOINT = {
-  KEGIATAN_SENI: 'https://dokumentasi.pentas-seniid.my.id/kegiatan',
-  GALERI: 'https://dokumentasi.pentas-seniid.my.id/gallery',
-  ALL_USERS: 'https://dokumentasi.pentas-seniid.my.id/auth/users',
-  DETAIL_GALERI: (id) => `https://dokumentasi.pentas-seniid.my.id/gallery/${id}`,
-  DETAIL_KEGIATAN: (id) => `https://dokumentasi.pentas-seniid.my.id/kegiatan/${id}`,
+  KEGIATAN_SENI: process.env.KEGIATAN,
+  GALERI: process.env.GALERI,
+  ALL_USERS: process.env.ALL_USERS,
+  LOGIN: process.env.LOGIN,
+  REGISTER: process.env.REGISTER,
   TEAM: '../../../src/public/data/team.json',
   ARTIKEL: '../../../src/public/data/artikel.json',
-
 };
 
 export default DATA_ENDPOINT;

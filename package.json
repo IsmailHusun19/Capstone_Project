@@ -29,6 +29,8 @@
     "imagemin-webp-webpack-plugin": "^3.3.6",
     "imagemin-webpack-plugin": "^2.4.2",
     "mini-css-extract-plugin": "^2.7.6",
+    "mocha": "^5.2.0",
+    "nock": "^10.0.4",
     "purgecss-webpack-plugin": "^5.0.0",
     "style-loader": "^3.3.3",
     "webpack": "^5.89.0",
@@ -37,18 +39,21 @@
     "webpack-dev-server": "^4.15.1",
     "webpack-merge": "^5.10.0",
     "whatwg-fetch": "^3.6.19",
-    "workbox-webpack-plugin": "^7.0.0",
-    "mocha": "^5.2.0",
-    "nock": "^10.0.4"
+    "workbox-webpack-plugin": "^7.0.0"
   },
   "dependencies": {
+    "crypto-browserify": "^3.12.0",
+    "dotenv": "^16.3.1",
     "lazysizes": "^5.3.2",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
     "puppeteer": "^21.5.2",
     "regenerator-runtime": "^0.14.0",
+    "request": "^2.88.2",
+    "stream-browserify": "^3.0.0",
     "sweetalert": "^2.1.2",
     "workbox-routing": "^7.0.0",
     "workbox-strategies": "^7.0.0",
-    "workbox-window": "^7.0.0",
-    "request": "^2.88.2"
+    "workbox-window": "^7.0.0"
   }
 }

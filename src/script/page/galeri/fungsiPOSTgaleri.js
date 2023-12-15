@@ -1,3 +1,5 @@
+import DATA_ENDPOINT from '../../config/dataEndPoint';
+
 const fungsiFormGaleri = () => {
   const form = document.querySelector('form');
 
@@ -18,7 +20,7 @@ const fungsiFormGaleri = () => {
     formData.append('gambar_gallery', gambar);
 
     try {
-      const response = await fetch('https://dokumentasi.pentas-seniid.my.id/gallery', {
+      const response = await fetch(DATA_ENDPOINT.GALERI, {
         method: 'POST',
         body: formData
       });

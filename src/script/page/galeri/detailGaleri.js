@@ -1,13 +1,13 @@
 import risetPages from '../../utils/risetPage';
 import DataSource from '../../config/dataResource.js';
-import dataEndPoint from '../../config/dataEndPoint.js';
+import DATA_ENDPOINT from '../../config/dataEndPoint';
 import admin from '../detailKegiatanSeni/detailAdmin';
 
 const detailGaleri = () => {
   risetPages();
   const contentDetail = document.querySelector('.content-project');
   const id = window.location.hash.split('/').pop();
-  DataSource.getItmes(dataEndPoint.GALERI)
+  DataSource.getItmes(DATA_ENDPOINT.GALERI)
     .then((response) => response.json())
     .then((data) => {
       const itemGaleri = data.data;
