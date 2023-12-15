@@ -28,6 +28,6 @@ URL();
 authGaleri();
 authKegiatan();
 
-window.addEventListener('load', async () => {
-  await swRegister();
-});
+// window.addEventListener('load', async () => {
+//   await swRegister();
+// });

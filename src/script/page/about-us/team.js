@@ -13,7 +13,7 @@ const team = () => {
       const profile = elementTeam.querySelector('.profile');
       allTeam.forEach((items) => {
         profile.innerHTML += `
-          <div class="card-profile">
+          <div class="card-profile" data-aos="flip-right">
             <div class="img-profile">
                 <img src="${items.gambar}" alt="">
             </div>

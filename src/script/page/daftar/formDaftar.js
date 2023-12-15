@@ -24,7 +24,7 @@ const formDaftar = () => {
             <div class="input-password">
                 <input type="email" placeholder="Email" autocomplete="email" required>
                 <div class="simbol-password">
-                <i class="fa-regular fa-user"></i>
+                <i class="fa-regular fa-envelope"></i>
                 </div>
             </div>
         </div>
