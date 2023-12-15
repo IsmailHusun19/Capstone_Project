@@ -37,18 +37,18 @@ module.exports = {
       ],
     }),
     new MiniCssExtractPlugin(),
-    // new WorkboxWebpackPlugin.GenerateSW({
-    //   swDest: './sw.bundle.js',
-    //   runtimeCaching: [
-    //     {
-    //       urlPattern: ({ url }) => url.href.startsWith('https://dokumentasi.pentas-seniid.my.id/auth/users'),
-    //       handler: 'StaleWhileRevalidate',
-    //       options: {
-    //         cacheName: 'user-API',
-    //       },
-    //     },
-    //   ],
-    // }),
+    new WorkboxWebpackPlugin.GenerateSW({
+      swDest: './sw.bundle.js',
+      runtimeCaching: [
+        {
+          urlPattern: ({ url }) => url.href.startsWith('https://dokumentasi.pentas-seniid.my.id/auth/users'),
+          handler: 'StaleWhileRevalidate',
+          options: {
+            cacheName: 'user-API',
+          },
+        },
+      ],
+    }),
   ],
   optimization: {
     minimize: true,
