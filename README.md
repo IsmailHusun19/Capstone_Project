@@ -27,8 +27,8 @@ Kami percaya bahwa dengan meningkatkan akses pada seni dan budaya akan dapat mem
 - Minggu Keempat (04/12/2023 - 10/12/2023) Melakukan penyempurnaan pada detail-detail kecil dalam proyek, menjalankan pengujian (testing), melakukan proses deployment, dan menyusun dokumentasi yang diperlukan.
 
 ## Tim
-- Ismail Husun - Back End Web Developer
-- Muhamad Farras Azahry - Full Stack Web Developer
+- Ismail Husun - Front End Web Developer
+- Muhamad Farras Azahry - Back End Web Developer
 - Dita Ayu Kustina - Front End Web Developer
 - Ihpaz Laga Sukanda - UI/UX Web Developer
 - Satria Dioufan Artha Desanta - DevOps Web Developer
