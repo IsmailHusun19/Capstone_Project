@@ -1,5 +1,7 @@
 ### PENTAS SENI INDONESIA
 
+Link Deploy : https://pentas-seni-indonesia.netlify.app/
+
 ## Daftar Isi
 - [Project](#Project)
   - [Jadwal\_Pelaksanaan](#jadwal_pelaksanaan)
@@ -25,11 +27,11 @@ Kami percaya bahwa dengan meningkatkan akses pada seni dan budaya akan dapat mem
 - Minggu Keempat (04/12/2023 - 10/12/2023) Melakukan penyempurnaan pada detail-detail kecil dalam proyek, menjalankan pengujian (testing), melakukan proses deployment, dan menyusun dokumentasi yang diperlukan.
 
 ## Tim
-- Ismail Husun - Full Stack Web Developer
+- Ismail Husun - Back End Web Developer
 - Muhamad Farras Azahry - Full Stack Web Developer
-- Dita Ayu Kustina - Full Stack Web Developer
-- Ihpaz Laga Sukanda - Full Stack Web Developer
-- Satria Dioufan Artha Desanta - Full Stack Web Developer
+- Dita Ayu Kustina - Front End Web Developer
+- Ihpaz Laga Sukanda - UI/UX Web Developer
+- Satria Dioufan Artha Desanta - DevOps Web Developer
 
 ## Fitur
 - **Autentikasi Pengguna:**
