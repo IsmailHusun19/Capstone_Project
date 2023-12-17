@@ -52,9 +52,10 @@ Menampilkan artikel-artikel terkait seni untuk dibaca oleh pengguna.
 ## Teknologi
 - Express js (Node.js): Untuk pengembangan back-end.
 - HTML, CSS, JavaScript: Untuk pengembangan front-end.
-- Framework : Bootstraps.
+- Framework/library : Babel-loader, Bootstrap, Aos, Webpack, Eslint, Sweetalert, Css-loader, Jenkins, Bcrypt, ExpressJS, Multer, Mysql2, Nodemon, Sequelize
 - Database : MySQL.
-- Tools : Postman, Larahon, Gitbash
+- Tools : Postman, Laragon, Prometheus, Grafana, GitBash
+
 
 ## Instalasi
 - $ npm install
