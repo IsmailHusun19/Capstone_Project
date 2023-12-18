@@ -7,10 +7,10 @@ const chai = require('chai')
 
 
 function parsedUrl(todoRequestOptions, filter) {
-	var apiUrl = todoRequestOptions.getUrl(filter)
-	var parsedUrl = url.parse( apiUrl )
-	var host = parsedUrl.protocol + '//' + parsedUrl.hostname
-	var path = parsedUrl.pathname
+	const apiUrl = todoRequestOptions.getUrl(filter)
+	const parsedUrl = url.parse( apiUrl )
+	const host = parsedUrl.protocol + '//' + parsedUrl.hostname
+	const path = parsedUrl.pathname
 
 	return {
 		host: host,
@@ -25,8 +25,8 @@ describe('TodoApi', () => {
 		, todoApi = new TodoApi(todoRequestOptions);
 
 	it('getList() should return 6 mocked itens', (done) => {
-		var filter = {}
-		var urlParsed = parsedUrl(todoRequestOptions, filter)
+		const filter = {}
+		const urlParsed = parsedUrl(todoRequestOptions, filter)
 
 		nock( urlParsed.host, {
 		      reqheaders: {
@@ -81,10 +81,10 @@ describe('TodoApi', () => {
 
 
 	it('getDetail() should return mocked item', (done) => {
-		var filter = { id: '59b29a10747883040351430d'}
-		var urlParsed = parsedUrl(todoRequestOptions, filter)
+		const filter = { id: '59b29a10747883040351430d'}
+		const urlParsed = parsedUrl(todoRequestOptions, filter)
 
-		var object = {
+		const object = {
 		    "_id": filter.id,
 		    "description": "test2",
 		    "createdAt": "2017-09-08T13:24:32.075Z",
@@ -113,13 +113,13 @@ describe('TodoApi', () => {
 
 
 	it('create() should return mocked new item', (done) => {
-		var urlParsed = parsedUrl(todoRequestOptions)
+		const urlParsed = parsedUrl(todoRequestOptions)
 
-		var formData = {
+		const formData = {
 		    description: "test2",
 		    done: false
 		}
-		var created = {
+		const created = {
 		    "_id": '19304h13f893egf',
 		    "description": formData.description,
 		    "createdAt": "2017-09-08T13:24:32.075Z",
@@ -147,14 +147,14 @@ describe('TodoApi', () => {
 
 
 	it('update() should return updated item', (done) => {
-		var filter = { id: '59b29a10747883040351430d' }
-		var urlParsed = parsedUrl(todoRequestOptions, filter)
+		const filter = { id: '59b29a10747883040351430d' }
+		const urlParsed = parsedUrl(todoRequestOptions, filter)
 
-		var formData = {
+		const formData = {
 		    description: "test3",
 		    done: true
 		}
-		var updated = {
+		const updated = {
 		    "_id": filter.id,
 		    "description": formData.description,
 		    "createdAt": "2017-09-08T13:24:32.075Z",
@@ -182,8 +182,8 @@ describe('TodoApi', () => {
 
 
 	it('delete() should return null', (done) => {
-		var filter = { id: '59b29a10747883040351430d' }
-		var urlParsed = parsedUrl(todoRequestOptions, filter)
+		const filter = { id: '59b29a10747883040351430d' }
+		const urlParsed = parsedUrl(todoRequestOptions, filter)
 
 		nock( urlParsed.host )
 			.delete( urlParsed.path )
@@ -196,6 +196,5 @@ describe('TodoApi', () => {
 			})
 			.catch( error => done(error) );
 	});
-
 
 });
