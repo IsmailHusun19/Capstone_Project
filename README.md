@@ -61,5 +61,5 @@ Menampilkan artikel-artikel terkait seni untuk dibaca oleh pengguna.
 
 ## Instalasi
 - $ npm install
-- $ npm build  - (production)
-- $ npm start-dev  - (development)
+- $ npm run build  - (production)
+- $ npm run start-dev  - (development)
